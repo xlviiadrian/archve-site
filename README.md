@@ -1,5 +1,11 @@
 # ARCHVE Editable Site Folder
 
+## Latest shop thumbnail update
+
+- Replaced the SHOP coming-soon thumbnail image with `assets/images/products/coming-soon.png`.
+- Updated `assets/js/site.js` so every coming-soon SHOP card uses the new PNG image.
+
+
 ## Latest update
 
 - Restored the site to an all-caps editorial type treatment.

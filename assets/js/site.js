@@ -448,7 +448,7 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
     name:"Coming soon",
     desc:"Coming soon",
     price:"Soon",
-    img:"assets/images/products/coming-soon.svg",
+    img:"assets/images/products/coming-soon.png",
     art:comingSoonArt(),
     no:`SHOP.${String(i+1).padStart(2,"0")}`,
     soon:true,

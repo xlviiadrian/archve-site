@@ -1555,7 +1555,8 @@ h1,h2,h3{
 .editors h2,.join h2,.support h2,.story-body h2{letter-spacing:-.06em !important;}
 .sec-title,.sub-head .sec-title{letter-spacing:-.05em !important;}
 #noise > .wrap > .sec-head .sec-title,
-#threads > .wrap > .sec-head .sec-title{
+#threads > .wrap > .sec-head .sec-title,
+#shop > .wrap > .sec-head .sec-title{
   font-size:clamp(20px,2.3vw,30px) !important;
   line-height:1 !important;
 }
@@ -1637,3 +1638,70 @@ h1,h2,h3{
 #shopGrid .card-desc{text-transform:none;}
 #shopGrid .replace-hint{display:none;}
 @media(max-width:760px){#threads .sec-grid{grid-template-columns:1fr;}}
+
+/* ============================================================
+   TEASER PASS — landing reshaped to a pre-launch teaser
+   ============================================================ */
+
+/* Bigger "Get on the list" button in the GET ON THE LIST block */
+.wait-tally-btn-lg{
+  font-size:clamp(15px,1.5vw,19px);
+  padding:20px 34px;
+  letter-spacing:.1em;
+  width:100%;
+}
+@media(max-width:600px){
+  .wait-tally-btn-lg{padding:18px 22px;font-size:16px}
+}
+
+/* SUPPORT US product tiles — real product photos on clean white,
+   full-bleed in the square card (images are 1:1, so no cropping). */
+#shopGrid .card .thumb{background:#fff}
+#shopGrid .card .thumb .asset-img{
+  object-fit:cover;
+  padding:0;
+  background:#fff;
+  filter:none;
+}
+
+/* Footer Instagram icon link */
+.foot-ig{display:inline-flex;align-items:center;gap:9px}
+.foot-ig svg{flex:0 0 auto;display:block}
+.foot-ig:hover{text-decoration:underline;text-underline-offset:3px}
+
+/* "DO NOT CLICK" nav tab — quietly daring, monochrome-safe */
+.nav .do-not-click-link{color:#fff;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:4px}
+.nav .do-not-click-link:hover,
+.nav .do-not-click-link:focus-visible{color:#fff;text-decoration-style:solid}
+
+/* ============================================================
+   CUSTOM CURSOR — ARCHVE figure mark
+   SVG for browsers that support it; 32px PNG fallback.
+   Hotspot near top-left so clicks land predictably.
+   ============================================================ */
+html,
+body{
+  cursor:url('../images/cursor.svg') 2 2, url('../images/cursor.png') 2 2, auto;
+}
+a, button, label, summary, [role="button"], [data-tally-open],
+.btn, .joinbtn, .search-btn, .burger, .cat-link, .search-result,
+.video-facade, .acard, .ditem, .card, .seeall, .sec-title, .brand{
+  cursor:url('../images/cursor.svg') 2 2, url('../images/cursor.png') 2 2, pointer;
+}
+input, textarea, select{
+  cursor:text;
+}
+
+/* DO NOT CLICK intro email — clear it's a link */
+.editors .body a{
+  color:inherit;
+  text-decoration:underline;
+  text-underline-offset:3px;
+  text-decoration-thickness:1.5px;
+}
+.editors .body a:hover{opacity:.7}
+
+/* Hide the secondary feature row on mobile */
+@media(max-width:760px){
+  .feat-row{display:none !important;}
+}

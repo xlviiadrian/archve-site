@@ -98,7 +98,7 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
 
   /* ---- ticker ---- */
   const tickerItems = ["ARCHVE magazine","Houston music, style, and culture","Open call for stories",
-    "Reader-funded, advertiser-free","Issue 001 in production","Subscribe for first access"];
+    "PRINT IS NOT DEAD.","Issue 001 in production","Subscribe for first access"];
   const tline = tickerItems.map(t=>`<span>${t}</span><span class="dot">/</span>`).join("");
   $("#ticker").innerHTML = tline + tline;
 
@@ -139,8 +139,9 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
     const [art,tickCol] = A[kind]||A.lead;
     return `<svg viewBox="0 0 600 338" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">${art}${ticks(tickCol)}</svg>`;
   }
-  // lead cover injected into hero
-  document.querySelector('[data-cover="lead"]').insertAdjacentHTML("afterbegin", coverAsset("assets/images/editorial/hero-cover.png", "ARCHVE Issue 001 cover image", "lead"));
+  // lead cover injected into hero (only present on the landing page)
+  const leadCoverEl = document.querySelector('[data-cover="lead"]');
+  if(leadCoverEl){ leadCoverEl.insertAdjacentHTML("afterbegin", coverAsset("assets/images/editorial/new-hero-placeholder.png", "ARCHVE teaser cover image", "lead")); }
 
   /* ---- secondary feature cards ----
      Randomly filled from tabs/cards across the site on every page load.
@@ -337,17 +338,18 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
 
   const latestFeed = $("#latestFeed");
   if(latestFeed){
+    // Pull 6 random items from the media that now lives on the DO NOT CLICK page.
+    // Reshuffles on every page load.
     const latestCats = ["Music Video","Session","Release","Collab","Short","Clip","Screwtape","Throwback","BTS","Interview"];
-    const mediaPool = shuffled(videos.filter(v => latestCats.includes(v.cat))).slice(0,6);
-    const latestItems = [{...REZO_STORY, isStory:true}, ...mediaPool];
+    const latestItems = shuffled(videos.filter(v => latestCats.includes(v.cat))).slice(0,6);
     latestFeed.innerHTML = latestItems.map(v => {
-      const href = v.isStory ? v.href : videoHref(v);
+      const href = videoHref(v);
       const thumb = v.thumb || videoThumb(v);
       const id = ytId(v.youtube || "");
       const img = thumb
-        ? `<img src="${thumb}" alt="${safeAlt(v.title)}" loading="lazy" decoding="async" ${v.thumb || v.isStory ? '' : `onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${id}/hqdefault.jpg'"`}>`
+        ? `<img src="${thumb}" alt="${safeAlt(v.title)}" loading="lazy" decoding="async" ${v.thumb ? '' : `onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${id}/hqdefault.jpg'"`}>`
         : `<span class="fallback"><b>${safeAlt(v.channel || "ARCHVE")}</b></span>`;
-      return `<a class="ditem ditem-media" href="${href}" ${v.isStory ? '' : 'target="_blank" rel="noopener"'}>
+      return `<a class="ditem ditem-media" href="${href}" target="_blank" rel="noopener">
           <div class="dthumb">${img}</div>
           <div class="dmeta">
             <div class="row"><span class="cat">${safeAlt(v.cat)}</span><span class="status">${safeAlt(v.channel || "ARCHVE")}</span></div>
@@ -443,18 +445,27 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
       <text x="300" y="438" text-anchor="middle" font-family="Franklin Gothic Regular, Franklin Gothic, Arial, sans-serif" font-size="16" fill="${MUTE}" letter-spacing="4">ARCHVE SHOP</text>
     </svg>`;
   }
-  const products = Array.from({length:6}, (_,i)=>({
+  const SHOP_THUMBS = [
+    {img:"assets/images/products/coming-soon_white-tee_.png",      name:"ARCHVE Tee — White"},
+    {img:"assets/images/products/coming-soon_black-tee_.png",      name:"ARCHVE Tee — Black"},
+    {img:"assets/images/products/coming-soon_white-keychain_.png", name:"ARCHVE Keychain — White"},
+    {img:"assets/images/products/coming-soon_black-keychain_.png", name:"ARCHVE Keychain — Black"},
+    {img:"assets/images/products/coming-soon_stickers_.png",       name:"ARCHVE Stickers"},
+    {img:"assets/images/products/coming-soon_chain.png",           name:"ARCHVE Chain"}
+  ];
+  const products = SHOP_THUMBS.map((t,i)=>({
     id:`coming_soon_${i+1}`,
     name:"Coming soon",
-    desc:"Coming soon",
+    desc:t.name,
     price:"Soon",
-    img:"assets/images/products/coming-soon.png",
+    img:t.img,
     art:comingSoonArt(),
     no:`SHOP.${String(i+1).padStart(2,"0")}`,
     soon:true,
-    wide:i>=4
+    wide:false
   }));
   const grid = $("#shopGrid");
+  if(grid){
   grid.innerHTML = products.map(p=>`
     <article class="card${p.wide?" wide":""}${p.soon?" soon":""}">
       <div class="thumb" data-img>
@@ -475,24 +486,13 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
       ${p.soon?'':`<div class="replace-hint">Replace product image in assets/images/products</div>`}
     </article>`).join("");
   grid.querySelectorAll("[data-buy]").forEach(b=>b.addEventListener("click",()=>goStripe(b.dataset.buy,b.dataset.label)));
+  }
 
   /* ---- donation ---- */
-  let amount = 25;
-  const donateAmt = $("#donateAmt"), customAmt = $("#customAmt");
-  function setAmt(v){ amount = v; donateAmt.textContent = "$"+v; }
-  $("#amounts").addEventListener("click", e=>{
-    const b = e.target.closest(".amt"); if(!b) return;
-    document.querySelectorAll(".amt").forEach(x=>x.classList.remove("sel"));
-    b.classList.add("sel"); customAmt.value=""; setAmt(parseInt(b.dataset.amt,10));
-  });
-  customAmt.addEventListener("input", ()=>{
-    const v = parseInt(customAmt.value,10);
-    if(v>0){ document.querySelectorAll(".amt").forEach(x=>x.classList.remove("sel")); setAmt(v); }
-  });
-  $("#donateBtn").addEventListener("click", ()=>{
-    let key = amount===10?"donate_10":amount===25?"donate_25":amount===50?"donate_50":"donate_custom";
-    goStripe(key, "Donation ($"+amount+")");
-  });
+  const donateBtn = $("#donateBtn");
+  if(donateBtn){
+    donateBtn.addEventListener("click", ()=> goStripe("donate_custom", "Support ARCHVE"));
+  }
 
   /* ---- Tally popups ----
      Submit / Pitch buttons open form eqoRyO.
@@ -516,28 +516,30 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
     const openBtn = document.querySelector(".search-btn");
     if(!overlay || !input || !openBtn) return;
 
-    // map a category/section name to an on-page anchor
+    // map a category/section name to an on-page anchor (or the moved page)
+    const DNC = "do-not-click.html";
     const SECTION_BY_CAT = {
-      "music":"#noise",
-      "fashion":"#threads", "fashion & streetwear":"#threads",
+      "music":DNC,
+      "fashion":DNC, "fashion & streetwear":DNC,
       "culture":"#top",
-      "video":"#noise", "documentary":"#noise",
-      "shop":"#shop"
+      "video":DNC, "documentary":DNC,
+      "do not click":DNC,
+      "shop":"#shop", "support us":"#shop"
     };
 
     // ---- build a searchable index from existing site data ----
     const index = [];
     (features||[]).forEach(f=>index.push({title:f.head, cat:f.cat, dek:f.dek, target:SECTION_BY_CAT[(f.cat||"").toLowerCase()]||"#top"}));
-    const rowTargets = {noise:"#noise", threads:"#threads"};
+    const rowTargets = {noise:DNC, threads:DNC};
     Object.entries(rows||{}).forEach(([k,items])=>items.forEach(it=>index.push({title:it.head, cat:it.cat, dek:it.dek, target:rowTargets[k]||"#top"})));
-    (videos||[]).forEach(v=>index.push({title:v.title, cat:v.cat, dek:"Video · "+v.channel, target:"#noise"}));
+    (videos||[]).forEach(v=>index.push({title:v.title, cat:v.cat, dek:"Video · "+v.channel, target:DNC}));
     (products||[]).forEach(p=>index.push({title:p.name, cat:"Shop", dek:p.desc, target:"#shop"}));
 
     // ---- categories shown in the browse list (from reference + ARCHVE sections) ----
     const CATEGORIES = [
-      "Arts & Culture","Documentary","Drugs","Fashion & Streetwear","Food",
+      "Arts & Culture","DO NOT CLICK","Documentary","Drugs","Fashion & Streetwear","Food",
       "Health","Music","News","NSFW",
-      "Shop","Sports","Technology","Travel","Video"
+      "Support Us","Sports","Technology","Travel","Video"
     ];
     catCols.innerHTML = CATEGORIES.map(c=>{
       const go = SECTION_BY_CAT[c.toLowerCase()] || "";
@@ -557,6 +559,9 @@ function productAsset(src, alt, fallbackMarkup){ return assetWithFallback(src, a
     }
     function jumpTo(target){
       closeOverlay();
+      if(!target) return;
+      // External URL or another page → navigate.
+      if(/^https?:\/\//i.test(target) || /\.html(#|$)/i.test(target)){ window.location.href = target; return; }
       const el = target && document.querySelector(target);
       if(el) setTimeout(()=>el.scrollIntoView({behavior:"smooth", block:"start"}), 120);
     }

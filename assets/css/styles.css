@@ -1674,24 +1674,6 @@ h1,h2,h3{
 .nav .do-not-click-link:hover,
 .nav .do-not-click-link:focus-visible{color:#fff;text-decoration-style:solid}
 
-/* ============================================================
-   CUSTOM CURSOR — ARCHVE figure mark
-   SVG for browsers that support it; 32px PNG fallback.
-   Hotspot near top-left so clicks land predictably.
-   ============================================================ */
-html,
-body{
-  cursor:url('../images/cursor.svg') 2 2, url('../images/cursor.png') 2 2, auto;
-}
-a, button, label, summary, [role="button"], [data-tally-open],
-.btn, .joinbtn, .search-btn, .burger, .cat-link, .search-result,
-.video-facade, .acard, .ditem, .card, .seeall, .sec-title, .brand{
-  cursor:url('../images/cursor.svg') 2 2, url('../images/cursor.png') 2 2, pointer;
-}
-input, textarea, select{
-  cursor:text;
-}
-
 /* DO NOT CLICK intro email — clear it's a link */
 .editors .body a{
   color:inherit;

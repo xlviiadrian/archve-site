@@ -21,7 +21,7 @@ const TALLY_ATTR = `data-tally-open='${TALLY_PITCH_ID}' data-tally-align-left='1
 const TALLY_LIST_ID = 'kdrEPd'
 const TALLY_LIST_LINK = `#tally-open=${TALLY_LIST_ID}&tally-layout=modal&tally-overlay=1&tally-auto-close=0`
 const TALLY_LIST_ATTR = `data-tally-open='${TALLY_LIST_ID}' data-tally-layout='modal' data-tally-overlay='1' data-tally-auto-close='0'`
-const HERO_COVER_SRC = 'assets/images/editorial/hero-cover.png'
+const HERO_COVER_SRC = 'assets/images/editorial/hero-cover.png?v=2'
 
 const yr = $('#yr')
 if(yr) yr.textContent = new Date().getFullYear()

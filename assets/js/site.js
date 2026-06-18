@@ -142,7 +142,6 @@ const videos = [
   {cat:'Release',title:'CHEPÉ — Out Now',channel:'SippinWesson',list:'OLAK5uy_kvYAt2Izi9pzL4eCxz5f79u3kE3x1m-DA',thumb:'assets/images/editorial/chepe-sippinwesson-thumbnail.jpg'},
   {cat:'Collab',title:'Faded Decade x Houston Texans Collab',channel:'Faded Decade',youtube:'https://www.youtube.com/watch?v=oPMQp8sBjIM'},
   {cat:'Session',title:'Good Summer Session',channel:'Faded Decade',youtube:'https://www.youtube.com/watch?v=A-yTmI7GjfY'},
-  {cat:'BTS',title:'BTS for WNGOAFP',channel:'Always November',youtube:'https://www.youtube.com/watch?v=KFQe0u-SinQ'},
   {cat:'Music Video',title:'Familiar',channel:'Rome Is No Fun',youtube:'https://www.youtube.com/watch?v=w__kDsMI9Dw'},
   {cat:'Throwback',title:'Bun B Interviews DJ Screw',channel:'S.U.C.',youtube:'https://www.youtube.com/watch?v=Al26am6FEwY'},
   {cat:'Interview',title:'Pimp C Interview with Bun B',channel:'UGK',youtube:'https://www.youtube.com/watch?v=4Lt-Bx-41sU'}

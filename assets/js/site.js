@@ -9,9 +9,8 @@ const PAPER = '#E6E5E0'
 const MUTE = '#9b9a93'
 
 const STRIPE = {
-  archve_stickers: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',
-  archve_keychain_white: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',
-  archve_keychain_black: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',
+  archve_man_icon_keychain: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',
+  archve_woman_icon_keychain: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',
   donate_custom: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00'
 }
 
@@ -192,9 +191,8 @@ if(videoRows){
 }
 
 const products = [
-  {id:'archve_stickers',img:'assets/images/products/coming-soon_stickers_.png',name:'ARCHVE Stickers'},
-  {id:'archve_keychain_white',img:'assets/images/products/coming-soon_white-keychain_.png',name:'ARCHVE Keychain — White'},
-  {id:'archve_keychain_black',img:'assets/images/products/coming-soon_black-keychain_.png',name:'ARCHVE Keychain — Black'}
+  {id:'archve_man_icon_keychain',img:'assets/images/products/coming-soon_white-keychain_.png',name:'ARCHVE MAN ICON KEYCHAIN'},
+  {id:'archve_woman_icon_keychain',img:'assets/images/products/coming-soon_black-keychain_.png',name:'ARCHVE WOMAN ICON KEYCHAIN'}
 ].map((p,i) => ({...p,desc:'Coming soon',price:'Soon',no:`SHOP.${String(i + 1).padStart(2,'0')}`,soon:true}))
 const grid = $('#shopGrid')
 if(grid){

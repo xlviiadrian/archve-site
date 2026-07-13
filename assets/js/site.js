@@ -8,6 +8,43 @@ const INK = '#0C0C0B'
 const PAPER = '#E6E5E0'
 const MUTE = '#9b9a93'
 
+/* Keep editorial titles uppercase while body copy uses its written capitalization. */
+const typographyStyle = document.createElement('style')
+typographyStyle.textContent = `
+  body{ text-transform:none !important; }
+  p,
+  .dek,
+  .adek,
+  .lead-copy,
+  .editors .body,
+  .editors .body p,
+  .card-desc,
+  .byline,
+  .lead .byline,
+  .acard .byline,
+  .vcard .byline,
+  .foot .tagline,
+  .foot-bot,
+  .modal-body .intro,
+  .uses li{
+    text-transform:none !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .sec-title,
+  .card-name{
+    text-transform:uppercase !important;
+  }
+  .card-name{
+    color:#000 !important;
+  }
+`
+document.head.appendChild(typographyStyle)
+
 const STRIPE = {
   archve_man_icon_keychain: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',
   archve_woman_icon_keychain: 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00',

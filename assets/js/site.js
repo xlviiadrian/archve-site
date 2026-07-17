@@ -241,13 +241,35 @@ if(videoRows){
   }).join('')
 }
 
+/* Paste each Shopify product or cart-permalink URL below when the products are live. */
 const products = [
-  {id:'archve_man_icon_keychain',img:'assets/images/products/coming-soon_white-keychain_.png',name:'ARCHVE MAN ICON KEYCHAIN'},
-  {id:'archve_woman_icon_keychain',img:'assets/images/products/coming-soon_black-keychain_.png',name:'ARCHVE WOMAN ICON KEYCHAIN'}
-].map((p,i) => ({...p,desc:'Coming soon',price:'Soon',no:`SHOP.${String(i + 1).padStart(2,'0')}`,soon:true}))
+  {
+    id:'archve_man_icon_keychain',
+    img:'assets/images/products/archve-man-keychain.svg?v=1',
+    name:'ARCHVE MAN ICON KEYCHAIN SET',
+    desc:'Includes the ARCHVE Man Icon and ARCHVE MAGAZINE keychains, packaged in a custom mylar bag.',
+    price:'Price at checkout',
+    shopifyUrl:''
+  },
+  {
+    id:'archve_woman_icon_keychain',
+    img:'assets/images/products/archve-woman-keychain.svg?v=1',
+    name:'ARCHVE WOMAN ICON KEYCHAIN SET',
+    desc:'Includes the ARCHVE Woman Icon and ARCHVE MAGAZINE keychains, packaged in a custom mylar bag.',
+    price:'Price at checkout',
+    shopifyUrl:''
+  }
+].map((p,i) => ({...p,no:`SHOP.${String(i + 1).padStart(2,'0')}`}))
 const grid = $('#shopGrid')
 if(grid){
-  grid.innerHTML = products.map(p => `<article class='card soon'><div class='thumb' data-img><span class='frameno'>${p.no}</span><span class='sold'>Coming soon</span>${imgWithFallback(p.img,p.name,fallbackProduct())}</div><div class='card-body'><span class='card-name'>${safe(p.name)}</span><span class='card-desc'>${safe(p.desc)}</span><div class='card-foot'><span class='price'>${p.price}</span><a class='btn btn-ink' href='${TALLY_LIST_LINK}' ${TALLY_LIST_ATTR}>Notify me</a></div></div></article>`).join('')
+  grid.innerHTML = products.map(p => {
+    const live = /^https:\/\//.test(p.shopifyUrl)
+    const badge = live ? '' : `<span class='sold'>Coming soon</span>`
+    const button = live
+      ? `<a class='btn btn-ink' href='${p.shopifyUrl}' target='_blank' rel='noopener'>Buy now</a>`
+      : `<a class='btn btn-ink' href='${TALLY_LIST_LINK}' ${TALLY_LIST_ATTR}>Notify me</a>`
+    return `<article class='card${live ? '' : ' soon'}'><div class='thumb' data-img><span class='frameno'>${p.no}</span>${badge}${imgWithFallback(p.img,p.name,fallbackProduct())}</div><div class='card-body'><span class='card-name'>${safe(p.name)}</span><span class='card-desc'>${safe(p.desc)}</span><div class='card-foot'><span class='price'>${safe(p.price)}</span>${button}</div></div></article>`
+  }).join('')
 }
 const donateBtn = $('#donateBtn')
 if(donateBtn) donateBtn.addEventListener('click',() => goStripe('donate_custom','Support ARCHVE'))

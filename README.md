@@ -29,7 +29,7 @@ Open `index.html` in your browser.
 Keep the same filename and overwrite the image.
 
 Example:
-- Replace `assets/images/editorial/hero-cover.png` to change the main hero image.
+- The hero image rotates randomly on each page load from `assets/images/editorial/hero-covers/`. Add, remove, or replace images there and update the `HERO_COVER_POOL` list in `assets/js/site.js` to change the rotation.
 - Replace `assets/images/products/sticker-dropi.png` to change that product image.
 
 Use PNG or JPG exports. If you change the file extension or filename, update the matching `img:` path inside `assets/js/site.js`.

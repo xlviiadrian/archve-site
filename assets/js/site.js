@@ -57,7 +57,21 @@ const TALLY_ATTR = `data-tally-open='${TALLY_PITCH_ID}' data-tally-align-left='1
 const TALLY_LIST_ID = 'kdrEPd'
 const TALLY_LIST_LINK = `#tally-open=${TALLY_LIST_ID}&tally-layout=modal&tally-overlay=1&tally-auto-close=0`
 const TALLY_LIST_ATTR = `data-tally-open='${TALLY_LIST_ID}' data-tally-layout='modal' data-tally-overlay='1' data-tally-auto-close='0'`
-const HERO_COVER_SRC = 'assets/images/editorial/hero-cover.png?v=2'
+const HERO_COVER_POOL = [
+  'assets/images/editorial/hero-covers/hero-cover-01.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-02.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-03.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-04.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-05.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-06.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-07.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-08.jpg',
+  'assets/images/editorial/hero-covers/hero-cover-09.jpg'
+]
+function pickHeroCover(){
+  const pick = HERO_COVER_POOL[Math.floor(Math.random() * HERO_COVER_POOL.length)]
+  return `${pick}?v=3`
+}
 
 const yr = $('#yr')
 if(yr) yr.textContent = new Date().getFullYear()
@@ -149,7 +163,7 @@ if(lead){
   const cover = lead.querySelector('[data-cover=lead]')
   if(h1) h1.innerHTML = `MODERN MAGAZINES ARE<br><span class='pt'>BORING.</span>`
   if(dek) dek.innerHTML = `Most magazines today feel the same: safe, “minimal,” corporate, lifeless, and flat-out JCPenney’s-ass design.<br><br>ARCHVE is not here to sit politely next to every other magazine. Every safe layout, every watered-down feature, every lifeless publication is competition. Houston is too alive to be documented by dead media. The city has too much culture, too much style, too many artists, too many businesses, and too many stories to keep getting flattened into boring content. This is not another clean little magazine made to disappear. ARCHVE is here to make Houston impossible to ignore and bring cool magazines back.`
-  if(cover) cover.insertAdjacentHTML('afterbegin',imgWithFallback(HERO_COVER_SRC,'ARCHVE hero cover image',fallbackCover('ARCHVE')))
+  if(cover) cover.insertAdjacentHTML('afterbegin',imgWithFallback(pickHeroCover(),'ARCHVE hero cover image',fallbackCover('ARCHVE')))
 }
 
 const REZO_STORY = {

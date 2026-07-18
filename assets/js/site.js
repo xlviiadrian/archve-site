@@ -26,7 +26,9 @@
         'signup-image-data-01.js?v=1',
         'support-image-data.js?v=1'
       ],() => {
-        load(`${base}site-custom.js?v=4`,() => load(`${base}site-images.js?v=1`))
+        load(`${base}site-custom.js?v=5`,() => {
+          load(`${base}header-logo-fix.js?v=1`,() => load(`${base}site-images.js?v=1`))
+        })
       })
     })
   })

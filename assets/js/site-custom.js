@@ -1,10 +1,10 @@
 (() => {
   const SIGNUP_IMAGES = [
-    'assets/images/editorial/hero-covers/hero-cover-01.jpg?v=6',
-    'assets/images/editorial/hero-covers/hero-cover-03.jpg?v=6',
-    'assets/images/editorial/hero-covers/hero-cover-05.jpg?v=6',
-    'assets/images/editorial/hero-covers/hero-cover-07.jpg?v=6',
-    'assets/images/editorial/hero-covers/hero-cover-09.jpg?v=6'
+    'assets/images/editorial/signup-select/signup-01.png?v=7',
+    'assets/images/editorial/signup-select/signup-02.png?v=7',
+    'assets/images/editorial/signup-select/signup-03.png?v=7',
+    'assets/images/editorial/signup-select/signup-04.png?v=7',
+    'assets/images/editorial/signup-select/signup-05.png?v=7'
   ]
   const PRODUCT_URLS = {
     'ARCHVE MAN ICON KEYCHAIN SET':'https://archvemag.com/products/archve-man-icon-keychain-set',

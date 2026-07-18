@@ -10,26 +10,7 @@
     document.head.appendChild(script)
   }
 
-  function loadSeries(sources,done){
-    const next = () => {
-      const src = sources.shift()
-      if(!src){ done?.(); return }
-      load(`${base}${src}`,next)
-    }
-    next()
-  }
-
   load(`${base}site-core.js?v=1`,() => {
-    load(`${base}shop-carousel.js?v=1`,() => {
-      loadSeries([
-        'signup-image-data-00.js?v=1',
-        'signup-image-data-01.js?v=1',
-        'support-image-data.js?v=1'
-      ],() => {
-        load(`${base}site-custom.js?v=5`,() => {
-          load(`${base}header-logo-fix.js?v=1`,() => load(`${base}site-images.js?v=1`))
-        })
-      })
-    })
+    load(`${base}shop-carousel.js?v=1`,() => load(`${base}site-custom.js?v=6`))
   })
 })()

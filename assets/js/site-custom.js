@@ -73,6 +73,7 @@
       .mast-cta{gap:8px!important;margin-right:14px!important}
       .burger{padding:8px 10px!important;font-size:10.5px!important}
       .joinbtn{display:none!important}
+      .search-btn{display:none!important}
       .join h2{font-size:clamp(30px,10vw,48px)!important}
     }
     @media(max-width:380px){

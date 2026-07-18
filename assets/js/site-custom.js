@@ -7,8 +7,8 @@
     'assets/images/editorial/signup-select/signup-05.png?v=7'
   ]
   const PRODUCT_URLS = {
-    'ARCHVE MAN ICON KEYCHAIN SET':'https://archvemag.com/products/archve-man-icon-keychain-set',
-    'ARCHVE WOMAN ICON KEYCHAIN SET':'https://archvemag.com/products/archve-woman-icon-keychain-set'
+    'ARCHVE MAN ICON KEYCHAIN SET':'https://shop.archvemag.com/products/archve-man-icon-keychain-set',
+    'ARCHVE WOMAN ICON KEYCHAIN SET':'https://shop.archvemag.com/products/archve-woman-icon-keychain-set'
   }
   const STRIPE_SUPPORT = 'https://buy.stripe.com/28E4gz7EQ5BBceV6F4fjG00'
 
@@ -82,7 +82,7 @@
 
     const join = document.querySelector('.join#join')
     if(join){
-      join.innerHTML = `<div class="wrap"><div class="join-card reveal in"><div class="join-grid join-random-image-layout"><div class="join-left"><div><h2>Sign Up For First Access<br>To The Magazine<br>&amp; Updates</h2><p>Be first to know when our first Issue drops, get pre-order access before anyone else,<br>and pull up to launch events. No spam — just the magazine.</p></div><div class="wait-form wait-form-tally join-email-form"><button class="join-subscribe-btn" type="button" data-tally-open="kdrEPd" data-tally-layout="modal" data-tally-overlay="1" data-tally-auto-close="0">Subscribe</button></div></div><div class="join-random-image-wrap"><figure class="join-random-image-frame"><img id="joinRandomImage" alt="ARCHVE editorial feature"></figure></div></div></div></div>`
+      join.innerHTML = `<div class="wrap"><div class="join-card reveal in"><div class="join-grid join-random-image-layout"><div class="join-left"><div><h2>Sign Up For First Access<br>To The Magazine<br>&amp; Updates</h2><p>Be first to know when our first Issue drops, get pre-order access before anyone else,<br>and pull up to launch events. No spam â€” just the magazine.</p></div><div class="wait-form wait-form-tally join-email-form"><button class="join-subscribe-btn" type="button" data-tally-open="kdrEPd" data-tally-layout="modal" data-tally-overlay="1" data-tally-auto-close="0">Subscribe</button></div></div><div class="join-random-image-wrap"><figure class="join-random-image-frame"><img id="joinRandomImage" alt="ARCHVE editorial feature"></figure></div></div></div></div>`
       const image = join.querySelector('#joinRandomImage')
       image.src = SIGNUP_IMAGES[Math.floor(Math.random() * SIGNUP_IMAGES.length)]
     }
@@ -92,7 +92,7 @@
 
     const support = document.querySelector('.support#support')
     if(support){
-      support.innerHTML = `<div class="wrap"><div class="sup-card reveal in"><div class="sup-grid"><div class="support-copy"><span class="label">Support ARCHVE</span><h2>Fund The Next Issue.</h2><p class="lead-copy">Help fund ARCHVE’s independent storytelling, including team file storage, photography, interviews, and print production.</p><ul class="uses"><li><span>→</span><span>Printing &amp; paper stock</span></li><li><span>→</span><span>Photography &amp; film</span></li><li><span>→</span><span>Interviews, writing &amp; reporting</span></li><li><span>→</span><span>Shipping &amp; production</span></li><li><span>→</span><span>Paying contributors fairly</span></li></ul><button class="support-cta" id="donateBtn">Support ARCHVE</button></div><div class="support-art"><img src="assets/images/editorial/letsholdhands.svg?v=6" alt="Two ARCHVE figures holding hands"></div></div></div></div>`
+      support.innerHTML = `<div class="wrap"><div class="sup-card reveal in"><div class="sup-grid"><div class="support-copy"><span class="label">Support ARCHVE</span><h2>Fund The Next Issue.</h2><p class="lead-copy">Help fund ARCHVEâ€™s independent storytelling, including team file storage, photography, interviews, and print production.</p><ul class="uses"><li><span>â†’</span><span>Printing &amp; paper stock</span></li><li><span>â†’</span><span>Photography &amp; film</span></li><li><span>â†’</span><span>Interviews, writing &amp; reporting</span></li><li><span>â†’</span><span>Shipping &amp; production</span></li><li><span>â†’</span><span>Paying contributors fairly</span></li></ul><button class="support-cta" id="donateBtn">Support ARCHVE</button></div><div class="support-art"><img src="assets/images/editorial/letsholdhands.svg?v=6" alt="Two ARCHVE figures holding hands"></div></div></div></div>`
       support.querySelector('#donateBtn')?.addEventListener('click',() => window.open(STRIPE_SUPPORT,'_blank','noopener'))
     }
 

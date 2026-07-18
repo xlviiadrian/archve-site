@@ -32,7 +32,6 @@
     .search-btn{border:0!important;background:transparent!important;color:#fff!important;flex-shrink:0!important}
     .joinbtn{background:var(--archve-purple)!important;border-color:var(--archve-purple)!important;color:#fff!important}
     .burger{flex-shrink:0!important;white-space:nowrap!important}
-    .mobile-shop-btn{display:none}
     .search-shop-btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;gap:8px!important;width:100%!important;max-width:560px!important;height:52px!important;margin:-14px 0 30px!important;border:1px solid #fff!important;background:#fff!important;color:#000!important;font-family:var(--mono)!important;font-size:13px!important;font-weight:900!important;letter-spacing:.08em!important;text-transform:uppercase!important;text-decoration:none!important;cursor:pointer!important;transition:.15s!important}
     .search-shop-btn:hover{background:transparent!important;color:#fff!important}
     .strip{background:#000!important;color:#fff!important;border-bottom:1px solid rgba(255,255,255,.14)!important}
@@ -74,13 +73,11 @@
       .mast-cta{gap:8px!important;margin-right:14px!important}
       .burger{padding:8px 10px!important;font-size:10.5px!important}
       .joinbtn{display:none!important}
-      .mobile-shop-btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;height:32px!important;padding:0 12px!important;border:1px solid rgba(255,255,255,.4)!important;background:transparent!important;color:#fff!important;font-family:var(--mono)!important;font-size:10.5px!important;font-weight:900!important;letter-spacing:.06em!important;text-transform:uppercase!important;white-space:nowrap!important;flex-shrink:0!important}
       .join h2{font-size:clamp(30px,10vw,48px)!important}
     }
     @media(max-width:380px){
       .brand{max-width:42vw!important}
       .mast-cta{gap:6px!important;margin-right:10px!important}
-      .mobile-shop-btn{padding:0 9px!important;font-size:9.5px!important}
       .burger{padding:7px 8px!important;font-size:10px!important}
     }
   `

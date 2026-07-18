@@ -33,7 +33,7 @@
     .joinbtn{background:var(--archve-purple)!important;border-color:var(--archve-purple)!important;color:#fff!important}
     .strip{background:#000!important;color:#fff!important;border-bottom:1px solid rgba(255,255,255,.14)!important}
     .join{background:#000!important;color:#fff!important;padding:clamp(58px,6vw,92px) 0!important}
-    .join .wrap,.support .wrap{width:100%!important;max-width:1540px!important;padding-left:clamp(22px,5vw,78px)!important;padding-right:clamp(22px,5vw,78px)!important}
+    .join .wrap,.support .wrap{width:100%!important;max-width:var(--maxw)!important;padding-left:var(--gut)!important;padding-right:var(--gut)!important}
     .join-card,.support .sup-card{padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;outline:0!important}
     .join-grid.join-random-image-layout{display:grid!important;grid-template-columns:minmax(300px,.82fr) minmax(360px,.98fr)!important;align-items:start!important;gap:clamp(30px,4vw,64px)!important}
     .join-left{display:flex!important;flex-direction:column!important;align-items:flex-start!important;justify-content:space-between!important;min-height:100%!important}

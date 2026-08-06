@@ -1,0 +1,63 @@
+name: Finalize ARCHVE site replacement
+
+on:
+  push:
+    branches:
+      - agent/archve-full-replacement
+    paths:
+      - .archve-patch/**
+      - .github/workflows/finalize-archve-site.yml
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    if: ${{ !contains(github.event.head_commit.message, '[skip archve build]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out replacement branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore uploaded site files
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .archve-patch/chunk-*.b64 | base64 --decode > /tmp/archve-patch.tar.gz
+          echo "edee92f7a197aecbe313684d9c7f6034abd20362e3c66d1efd11a285736e4c69  /tmp/archve-patch.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/archve-patch.tar.gz
+          echo "cb46c44734a9a02c1bb42aabed4e6a6ff39fb978107f106fbf4be3c7e3f7a5ed  assets/images/logos/ARCHVE_TOP_HEADER_LOGO.svg" | sha256sum -c -
+          echo "247fb46b7dc74bd9d4a48e892190d7f9e074ab28ef3c214c5709f2ae4db3e60e  assets/js/site-core.js" | sha256sum -c -
+          echo "bacd92728211e97e3680e94e3980f98f1705dfb65d3eca22fec7726151dbecea  assets/js/site-custom.js" | sha256sum -c -
+          echo "1316b7a6d01bad5f520d0a480df4afd5fa72b4ae9bb66bd66ad9afcf5f2387b4  assets/js/site.js" | sha256sum -c -
+          echo "2ca74e844ec37640a8bbb201876800829932758c231be95b2d42cb7c34dc950f  index.html" | sha256sum -c -
+
+      - name: Render the uploaded header logo PNG
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check --quiet cairosvg==2.7.1
+          python - <<'PY'
+          import cairosvg
+          cairosvg.svg2png(
+              url='assets/images/logos/ARCHVE_TOP_HEADER_LOGO.svg',
+              write_to='assets/images/logos/archbe.png',
+              output_width=14027,
+              output_height=2252,
+          )
+          PY
+          test -s assets/images/logos/archbe.png
+
+      - name: Commit completed replacement
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .archve-patch
+          rm -f .github/workflows/finalize-archve-site.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Replace all ARCHVE site files [skip archve build]"
+          git push origin HEAD:agent/archve-full-replacement

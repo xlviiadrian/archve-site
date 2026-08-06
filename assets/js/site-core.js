@@ -151,18 +151,14 @@ if(burger && nav){
 
 const ticker = $('#ticker')
 if(ticker){
-  const items = ['ARCHVE magazine','Houston music, style, and culture','Open call for stories','PRINT IS NOT DEAD.','Issue 001 in production','Subscribe for first access']
+  const items = ['ARCHVE magazine','music, style, and culture','Open call for stories','Be featured in the first magazine?','First Issue in production','Subscribe for first access']
   const line = items.map(t => `<span>${t}</span><span class='dot'>/</span>`).join('')
   ticker.innerHTML = line + line
 }
 
 const lead = $('.lead')
 if(lead){
-  const h1 = lead.querySelector('h1')
-  const dek = lead.querySelector('.dek')
   const cover = lead.querySelector('[data-cover=lead]')
-  if(h1) h1.innerHTML = `MODERN MAGAZINES ARE<br><span class='pt'>BORING.</span>`
-  if(dek) dek.innerHTML = `Most magazines today feel the same: safe, “minimal,” corporate, lifeless, and flat-out JCPenney’s-ass design.<br><br>ARCHVE is not here to sit politely next to every other magazine. Every safe layout, every watered-down feature, every lifeless publication is competition. Houston is too alive to be documented by dead media. The city has too much culture, too much style, too many artists, too many businesses, and too many stories to keep getting flattened into boring content. This is not another clean little magazine made to disappear. ARCHVE is here to make Houston impossible to ignore and bring cool magazines back.`
   if(cover) cover.insertAdjacentHTML('afterbegin',imgWithFallback(pickHeroCover(),'ARCHVE hero cover image',fallbackCover('ARCHVE')))
 }
 

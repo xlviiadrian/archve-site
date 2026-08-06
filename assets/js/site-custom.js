@@ -105,7 +105,7 @@
     }
 
     const editorHeading = document.querySelector('.editors h2')
-    if(editorHeading) editorHeading.textContent = 'A Raw Cultural Houston Visual Experience'
+    if(editorHeading) editorHeading.textContent = 'A Rare Collection of Human Visual Experience'
 
     const join = document.querySelector('.join#join')
     if(join){

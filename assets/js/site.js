@@ -10,7 +10,7 @@
     document.head.appendChild(script)
   }
 
-  load(`${base}site-core.js?v=1`,() => {
+  load(`${base}site-core.js?v=2`,() => {
     load(`${base}shop-carousel.js?v=1`,() => load(`${base}site-custom.js?v=6`))
   })
 })()

@@ -165,8 +165,12 @@ function staticPage(article) {
   const metaDescription = article.seo?.description || article.dek || plainTextFromBody(article.body).slice(0, 155);
   const ogTitle = article.seo?.ogTitle || seoTitle;
   const ogDescription = article.seo?.ogDescription || metaDescription;
-  const ogImage = absoluteAsset(article.seo?.ogImage || article.heroImage?.src || article.image?.src || config.defaultSocialImage || '');
   const hero = article.heroImage || article.image || article.thumbnailImage || {};
+  // Social shares should visually identify the story itself whenever possible.
+  // Prefer the article hero, then other article media, with ARCHVE's supplied
+  // 1200x630 brand card as the final fallback.
+  const ogImage = absoluteAsset(article.heroImage?.src || article.image?.src || article.thumbnailImage?.src || article.seo?.ogImage || config.defaultSocialImage || '');
+  const ogImageAlt = hero.alt || article.title || 'ARCHVE MAGAZINE';
   const category = article.category || article.eyebrow?.category || 'Latest';
   const author = article.author || config.defaultAuthor || 'ARCHVE Magazine';
   const topics = Array.isArray(article.tags) && article.tags.length ? article.tags : (article.topics || [category]);
@@ -209,10 +213,12 @@ function staticPage(article) {
   <meta property="og:description" content="${escapeHtml(ogDescription)}">
   <meta property="og:url" content="${escapeHtml(canonical)}">
   ${ogImage ? `<meta property="og:image" content="${escapeHtml(ogImage)}">` : ''}
+  ${ogImage ? `<meta property="og:image:alt" content="${escapeHtml(ogImageAlt)}">` : ''}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${escapeHtml(ogTitle)}">
   <meta name="twitter:description" content="${escapeHtml(ogDescription)}">
   ${ogImage ? `<meta name="twitter:image" content="${escapeHtml(ogImage)}">` : ''}
+  ${ogImage ? `<meta name="twitter:image:alt" content="${escapeHtml(ogImageAlt)}">` : ''}
   <meta name="theme-color" content="#000000">
   <meta name="color-scheme" content="dark">
   <link rel="icon" href="assets/logos/archve-favicon.png" type="image/png" sizes="512x512">

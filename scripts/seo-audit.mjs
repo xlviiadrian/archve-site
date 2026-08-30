@@ -81,6 +81,12 @@ for (const url of urls) {
   const legacyLinks = [...html.matchAll(/href=["']([^"']*\.html(?:[?#][^"']*)?)["']/gi)].map((m) => m[1]).filter((h) => !/^https?:\/\//i.test(h));
   if (legacyLinks.length) errors.push(`Legacy .html internal link on ${url}: ${legacyLinks[0]}`);
   if (url.includes("/articles/") && !/"@type"\s*:\s*"(?:NewsArticle|Article)"/i.test(html)) errors.push(`Article structured data missing: ${url}`);
+  const ogImageTag = (html.match(/<meta\b(?=[^>]*\bproperty=["']og:image["'])[^>]*>/i) || [""])[0];
+  const ogImage = (ogImageTag.match(/\bcontent=["']([^"']+)["']/i) || [,""])[1] || "";
+  const twImageTag = (html.match(/<meta\b(?=[^>]*\bname=["']twitter:image["'])[^>]*>/i) || [""])[0];
+  const twImage = (twImageTag.match(/\bcontent=["']([^"']+)["']/i) || [,""])[1] || "";
+  if (!ogImage.startsWith(`${ORIGIN}/`)) errors.push(`Missing/off-domain Open Graph image: ${url}`);
+  if (!twImage.startsWith(`${ORIGIN}/`)) errors.push(`Missing/off-domain Twitter image: ${url}`);
 }
 
 const robots = readFileSync(robotsPath, "utf8");

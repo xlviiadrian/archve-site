@@ -3,6 +3,6 @@
   "articleBasePath": "articles",
   "publisherName": "ARCHVE MAGAZINE",
   "defaultAuthor": "ARCHVE Magazine",
-  "defaultSocialImage": "assets/logos/archve-favicon.png",
+  "defaultSocialImage": "assets/images/social/archve-preview-main-v2.jpg",
   "indexOnlyCompleteArticles": true
 }

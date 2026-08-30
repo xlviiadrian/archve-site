@@ -93,7 +93,7 @@ for (const [legacyFile, cleanRoute] of Object.entries(CLEAN_ROUTES)) {
   // Keep old links alive for bookmarks/search history, but immediately send
   // users to the canonical clean route while preserving query strings/hashes.
   const cleanPath = "/" + cleanRoute;
-  const redirect = `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${SITE_URL}${cleanPath}"><title>Moved — ARCHVE MAGAZINE</title><script>location.replace(${JSON.stringify(cleanPath)}+location.search+location.hash)</script><noscript><meta http-equiv="refresh" content="0; url=${cleanPath}"></noscript></head><body></body></html>\n`;
+  const redirect = `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${SITE_URL}${cleanPath}"><title>Moved — ARCHVE MAGAZINE</title><style>html,body{margin:0;background:#000;color:#dce0df}</style><script>location.replace(${JSON.stringify(cleanPath)}+location.search+location.hash)</script><noscript><meta http-equiv="refresh" content="0; url=${cleanPath}"></noscript></head><body></body></html>\n`;
   writeFileSync(legacyPath, redirect);
 }
 
@@ -234,8 +234,21 @@ function titleFromHTML(html) {
 
 function addPrerenderStyle(html) {
   if (html.includes("data-seo-prerender-style")) return html;
-  const css = `<style data-seo-prerender-style>\n.seo-prerender{max-width:1100px;margin:0 auto;padding:32px var(--pad-inline,24px);color:inherit}.seo-prerender h1{font-size:clamp(2rem,6vw,4rem);line-height:1;margin:0 0 28px}.seo-prerender h2{font-size:clamp(1.15rem,3vw,1.75rem);line-height:1.15;margin:28px 0 8px}.seo-prerender p{max-width:75ch;margin:0 0 12px;line-height:1.55}.seo-prerender a{text-decoration:underline;text-underline-offset:.16em}\n</style>`;
+  // The SEO snapshot remains real, crawlable HTML for bots and no-JS clients,
+  // but it must never flash in front of the designed interface for normal users.
+  // A tiny parser-blocking bootstrap marks JS as available before first paint;
+  // this inline critical CSS then hides only the snapshot while preserving a
+  // black first paint until the normal renderer fills the page.
+  const css = `<style data-seo-prerender-style>\nhtml,body{background:#000;color:#dce0df}html.js .seo-prerender{display:none!important}.seo-prerender{max-width:1100px;margin:0 auto;padding:32px var(--pad-inline,24px);color:inherit}.seo-prerender h1{font-size:clamp(2rem,6vw,4rem);line-height:1;margin:0 0 28px}.seo-prerender h2{font-size:clamp(1.15rem,3vw,1.75rem);line-height:1.15;margin:28px 0 8px}.seo-prerender p{max-width:75ch;margin:0 0 12px;line-height:1.55}.seo-prerender a{text-decoration:underline;text-underline-offset:.16em}\n</style>`;
   return html.replace(/<\/head>/i, `${css}\n</head>`);
+}
+
+function addNoFlashBootstrap(html) {
+  if (html.includes("data-no-flash-bootstrap")) return html;
+  const boot = `<script data-no-flash-bootstrap>(function(d){d.classList.remove("no-js");d.classList.add("js")})(document.documentElement);</script>`;
+  // Put this at the very start of <head> so the class is set before the browser
+  // can paint the body or the crawlable SEO snapshot.
+  return html.replace(/<head([^>]*)>/i, `<head$1>\n  ${boot}`);
 }
 
 function prerenderPublicPage(path) {
@@ -246,6 +259,7 @@ function prerenderPublicPage(path) {
   const snapshot = buildPrerenderSnapshot(data, titleFromHTML(html));
   if (!snapshot) return;
   html = injectIntoMount(html, snapshot);
+  html = addNoFlashBootstrap(html);
   html = addPrerenderStyle(html);
   writeFileSync(path, html);
 }

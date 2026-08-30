@@ -4,7 +4,7 @@
     "logo": "assets/logos/ARCHVETOP.svg",
     "backronym": "A Rare Collection Of Human Visual Experiences",
     "tagline": "Music · Art · Human Experiences",
-    "homeHref": "index.html"
+    "homeHref": "/"
   },
   "nav": [
     {
@@ -13,35 +13,35 @@
     },
     {
       "label": "Latest",
-      "href": "latest.html"
+      "href": "latest/"
     },
     {
       "label": "Fashion",
-      "href": "fashion.html"
+      "href": "fashion/"
     },
     {
       "label": "Beauty",
-      "href": "beauty.html"
+      "href": "beauty/"
     },
     {
       "label": "Art & Photography",
-      "href": "art.html"
+      "href": "art/"
     },
     {
       "label": "Film & TV",
-      "href": "film.html"
+      "href": "film/"
     },
     {
       "label": "Music",
-      "href": "music.html"
+      "href": "music/"
     },
     {
       "label": "Life & Culture",
-      "href": "culture.html"
+      "href": "culture/"
     },
     {
       "label": "G6 AGENCY",
-      "href": "g6.html"
+      "href": "g6/"
     }
   ],
   "search": {
@@ -58,7 +58,7 @@
   "footer": {
     "ticker": {
       "label": "ARCHVE",
-      "href": "index.html"
+      "href": "/"
     },
     "socials": [
       {
@@ -118,11 +118,11 @@
       "items": [
         {
           "label": "ARCHVE Magazine",
-          "href": "index.html"
+          "href": "/"
         },
         {
           "label": "G6 Agency",
-          "href": "g6.html"
+          "href": "g6/"
         },
         {
           "label": "World Mafia Media",

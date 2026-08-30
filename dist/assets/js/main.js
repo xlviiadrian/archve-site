@@ -9,7 +9,7 @@
      only place a page's content lives.
    • The single shared file is content/site.json, which holds the GLOBAL
      header + footer + newsletter (the chrome that every page shares).
-   • The article page (article.html?id=…) has no content of its own; it
+   • The article page (article/?id=…) has no content of its own; it
      gathers every story from the other pages' inline data at load time.
 
    No build step, no framework, no external dependencies.
@@ -41,8 +41,8 @@
   }
   // Content pages that carry stories, used to build the article library.
   var CONTENT_PAGES = [
-    "index.html", "latest.html", "music.html", "art.html", "fashion.html",
-    "beauty.html", "film.html", "photography.html", "culture.html", "the-index.html"
+    "/", "latest/", "music/", "art/", "fashion/",
+    "beauty/", "film/", "photography/", "culture/", "the-index/"
   ];
 
   /* ---------- tiny helpers ---------- */
@@ -393,7 +393,7 @@
   function brandMarkup(site) {
     var b = site.brand || {};
     return (
-      '<a class="brand" href="' + attr(b.homeHref || "index.html") + '" aria-label="' + attr(b.name || "ARCHVE") + ' home">' +
+      '<a class="brand" href="' + attr(b.homeHref || "/") + '" aria-label="' + attr(b.name || "ARCHVE") + ' home">' +
       '<img src="' + attr(b.logo) + '" alt="' + attr(b.name || "ARCHVE") + '" width="176" height="34">' +
       "</a>"
     );
@@ -433,15 +433,15 @@
     };
     var explore = (site.nav || []).slice();   // mirrors the updated nav bar
     var series = [
-      { label: "ARCHVE Magazine", href: "index.html" },
-      { label: "G6 Agency", href: "g6.html" },
+      { label: "ARCHVE Magazine", href: "/" },
+      { label: "G6 Agency", href: "g6/" },
       { label: "World Mafia Media", href: "#" },
       { label: "XLVII47", href: "https://xlvii47.com" },
       { label: "Subscribe", href: TALLY.newsletter.href }
     ];
     var latestIssue = [
-      { label: "Read The Latest Issue", href: "the-index.html" },
-      { label: "Explore The Archive", href: "index.html#issues" },
+      { label: "Read The Latest Issue", href: "the-index/" },
+      { label: "Explore The Archive", href: "/#issues" },
       { label: "Get A Copy", href: "https://shop.archvemag.com" }
     ];
     menu.setAttribute("role", "navigation");
@@ -455,7 +455,7 @@
       '<section aria-labelledby="menu-latest"><h2 class="menu-title" id="menu-latest">Latest Issue</h2><nav class="menu-links" aria-label="Latest issue">' + menuLinks(latestIssue) + "</nav></section>" +
       '<section aria-labelledby="menu-newsletter"><h2 class="menu-title" id="menu-newsletter">Newsletter</h2><nav class="menu-links" aria-label="Newsletter"><a href="' + attr(TALLY.newsletter.href) + '" data-tally-open="' + TALLY.newsletter.id + '">Subscribe To First Access</a></nav></section>' +
       "</div>" +
-      '<a class="menu-feature" href="the-index.html" aria-label="Read the latest ARCHVE issue"><img src="assets/images/menu-feature.png" alt="ARCHVE latest issue cover" loading="eager" decoding="async"></a>' +
+      '<a class="menu-feature" href="the-index/" aria-label="Read the latest ARCHVE issue"><img src="assets/images/menu-feature.png" alt="ARCHVE latest issue cover" loading="eager" decoding="async"></a>' +
       '</div><div class="menu-socials" aria-label="ARCHVE social channels">' + socials + "</div></div>";
 
     markActiveNav(header);
@@ -463,8 +463,8 @@
   }
 
   function markActiveNav(header) {
-    var here = (location.pathname.split("/").pop() || "index.html").toLowerCase();
-    if (!here || here === "index.html") return; // home has no active section (as on DAZED)
+    var here = (location.pathname.split("/").pop() || "/").toLowerCase();
+    if (!here || here === "/") return; // home has no active section (as on DAZED)
     header.querySelectorAll(".primary-nav a").forEach(function (a) {
       var target = (a.getAttribute("href") || "").split("#")[0].toLowerCase();
       if (target === here) a.setAttribute("aria-current", "page");
@@ -483,7 +483,7 @@
     var netLead = (f.network && f.network.lead) ? '<span class="lead">' + esc(f.network.lead) + '</span><span class="sep">|</span>' : "";
     footer.innerHTML =
       '<div class="container container--wide footer-core">' +
-      '<a class="footer-brand" href="' + attr(ticker.href || "index.html") + '" aria-label="' + attr((ticker.label || "ARCHVE") + " home") + '">' +
+      '<a class="footer-brand" href="' + attr(ticker.href || "/") + '" aria-label="' + attr((ticker.label || "ARCHVE") + " home") + '">' +
       '<img src="assets/logos/FOOTER.svg" alt="' + attr(ticker.label || "ARCHVE Magazine") + '">' +
       "</a>" +
       '<div class="footer-socials">' + socials + "</div>" +
@@ -582,7 +582,7 @@
     function submitSearch(value) {
       var q = String(value || "").trim();
       if (!q) return;
-      location.href = "search.html?q=" + encodeURIComponent(q);
+      location.href = "search/?q=" + encodeURIComponent(q);
     }
     if (panel) {
       var pf = panel.querySelector("form");
@@ -1101,19 +1101,19 @@
   function catHref(cat) {
     var c = (cat || "").toLowerCase();
     var known = {
-      latest: "latest.html", music: "music.html", fashion: "fashion.html", beauty: "beauty.html",
-      art: "art.html", "art & photography": "art.html", photography: "photography.html",
-      film: "film.html", "film & tv": "film.html", culture: "culture.html", "life & culture": "culture.html"
+      latest: "latest/", music: "music/", fashion: "fashion/", beauty: "beauty/",
+      art: "art/", "art & photography": "art/", photography: "photography/",
+      film: "film/", "film & tv": "film/", culture: "culture/", "life & culture": "culture/"
     };
-    return known[c] || "latest.html";
+    return known[c] || "latest/";
   }
 
   function categoryTopicHref(topic) {
     var c = String(topic || "").toLowerCase();
     var known = {
-      latest: "latest.html", music: "music.html", fashion: "fashion.html", beauty: "beauty.html",
-      art: "art.html", "art & photography": "art.html", photography: "photography.html",
-      film: "film.html", "film & tv": "film.html", culture: "culture.html", "life & culture": "culture.html"
+      latest: "latest/", music: "music/", fashion: "fashion/", beauty: "beauty/",
+      art: "art/", "art & photography": "art/", photography: "photography/",
+      film: "film/", "film & tv": "film/", culture: "culture/", "life & culture": "culture/"
     };
     return known[c] || "";
   }
@@ -1156,7 +1156,7 @@
         '<section class="section page-title"><div class="container">' +
         "<h1>Story not found</h1>" +
         '<p class="page-sub">That piece isn\u2019t in the archive (yet). It may have been renamed or not published.</p>' +
-        '<p style="margin-top:20px"><a class="btn btn--pill" href="index.html">Back to the cover</a></p>' +
+        '<p style="margin-top:20px"><a class="btn btn--pill" href="/">Back to the cover</a></p>' +
         "</div></section>";
       return;
     }
@@ -1353,7 +1353,7 @@
     if (!story) return "#";
     return (story.status === "published" && story.body && story.body.length)
       ? "articles/" + encodeURIComponent(story.slug || story.id) + "/"
-      : ((story.migration && story.migration.legacyHref) || ("article.html?id=" + encodeURIComponent(story.id)));
+      : ((story.migration && story.migration.legacyHref) || ("article/?id=" + encodeURIComponent(story.id)));
   }
 
   // Article pages now read directly from the centralized article catalog.
@@ -1715,7 +1715,7 @@
   // filtered Work page (no fabricated per-project pages).
   function g6ProjectHref(p) {
     if (p.href && p.href !== "#") return p.href;
-    return "g6-work.html?filter=" + encodeURIComponent(p.service || "all");
+    return "g6/work/?filter=" + encodeURIComponent(p.service || "all");
   }
 
   function g6MetaLine(p) {
@@ -1749,7 +1749,7 @@
       '<div class="g6-hero-scrim" aria-hidden="true"></div>' +
       '<div class="container container--wide"><div class="g6-hero-content">' +
       (hero.tagline ? '<p class="g6-hero-tagline">' + esc(hero.tagline) + "</p>" : "") +
-      (cta.label ? '<a class="btn btn--fill g6-hero-cta" href="' + attr(cta.href || "g6-contact.html") + '">' + esc(cta.label) + "</a>" : "") +
+      (cta.label ? '<a class="btn btn--fill g6-hero-cta" href="' + attr(cta.href || "g6/contact/") + '">' + esc(cta.label) + "</a>" : "") +
       "</div></div></section>"
     );
   }
@@ -1768,12 +1768,10 @@
 
   function g6ServiceCard(s, i) {
     var mediaLeft = (i % 2 === 1);
-    var idx = "No. " + ("0" + (i + 1)).slice(-2);
     return (
       '<a class="g6-card reveal' + (mediaLeft ? " g6-card--media-left" : "") + '" href="' + attr(s.route || "#") + '" aria-label="' + attr(s.name) + '">' +
       '<div class="g6-card-media">' + g6Media(s.media || {}, { ratioClass: "g6-media-fill" }) + "</div>" +
       '<div class="g6-card-body">' +
-      '<span class="g6-card-index">' + esc(idx) + "</span>" +
       '<h3 class="g6-card-title">' + esc(s.name) + "</h3>" +
       (s.line ? '<p class="g6-card-line">' + esc(s.line) + "</p>" : "") +
       '<span class="g6-card-cta">Explore ' + G6_ARROW + "</span>" +
@@ -1823,7 +1821,7 @@
       '<section class="g6-featured" id="work">' +
       '<div class="container g6-container">' +
       '<div class="section-head reveal"><h2>' + esc(fw.title || "Featured Work") + "</h2>" +
-      '<a class="g6-viewall" href="g6-work.html">View All Work ' + G6_ARROW + "</a></div>" +
+      '<a class="g6-viewall" href="g6/work/">View All Work ' + G6_ARROW + "</a></div>" +
       '<div class="g6-feature-grid">' + cells + "</div>" +
       "</div></section>"
     );
@@ -1844,8 +1842,8 @@
       (mt.line ? '<p class="g6-mt-line">' + esc(mt.line) + "</p>" : "") +
       "</div>" +
       '<div class="g6-mt-cta">' +
-      '<a class="btn btn--pill" href="g6-models.html">View Roster</a>' +
-      '<a class="btn btn--fill" href="g6-apply.html">Apply</a>' +
+      '<a class="btn btn--pill" href="g6/models/">View Roster</a>' +
+      '<a class="btn btn--fill" href="g6/apply/">Apply</a>' +
       "</div></div>" +
       (media ? '<div class="g6-mt-strip">' + media + "</div>" : "") +
       "</div></section>"
@@ -1878,7 +1876,7 @@
     var cc = (state.g6 && state.g6.closingCta) || {};
     if (cc.visible === false) return "";
     return (
-      '<section class="g6-closing reveal"><a class="g6-closing-inner" href="' + attr(cc.href || "g6-contact.html") + '">' +
+      '<section class="g6-closing reveal"><a class="g6-closing-inner" href="' + attr(cc.href || "g6/contact/") + '">' +
       '<div class="container g6-container">' +
       (cc.kicker ? '<p class="g6-closing-kicker">' + esc(cc.kicker) + "</p>" : "") +
       "<h2>" + esc(cc.title || "Start a Project") + "</h2>" +
@@ -2083,7 +2081,7 @@
     if (!s) {
       mount.innerHTML = '<section class="section page-title"><div class="container"><h1>Service not found</h1>' +
         '<p class="page-sub">That service isn\u2019t configured yet.</p>' +
-        '<p style="margin-top:20px"><a class="btn btn--pill" href="g6-services.html">All services</a></p></div></section>';
+        '<p style="margin-top:20px"><a class="btn btn--pill" href="g6/services/">All services</a></p></div></section>';
       return;
     }
     var idx = g6ProjectsIndex();
@@ -2105,7 +2103,7 @@
     }
     // Model Casting: cross-link to G6 Models.
     if (id === "model-casting") {
-      extra += '<p class="g6-note reveal">Casting draws on the <a href="g6-models.html">G6 Models roster</a> and open calls.</p>';
+      extra += '<p class="g6-note reveal">Casting draws on the <a href="g6/models/">G6 Models roster</a> and open calls.</p>';
     }
     // Music/Video: render only if a real reel URL/media exists.
     if (id === "music-video-production") {
@@ -2113,10 +2111,10 @@
       else if (s.reelMedia && (s.reelMedia.src || s.reelMedia.poster)) extra += '<div class="g6-reel reveal">' + g6Media(s.reelMedia, { ratioClass: "media--wide" }) + "</div>";
     }
 
-    var contactHref = "g6-contact.html?service=" + encodeURIComponent(s.name);
+    var contactHref = "g6/contact/?service=" + encodeURIComponent(s.name);
     mount.innerHTML =
       '<section class="section page-title g6-page-title"><div class="container g6-container">' +
-      '<p class="g6-crumb"><a href="g6-services.html">Services</a> <span>/</span> ' + esc(s.name) + "</p>" +
+      '<p class="g6-crumb"><a href="g6/services/">Services</a> <span>/</span> ' + esc(s.name) + "</p>" +
       "<h1>" + esc(s.name) + "</h1>" +
       (s.overview ? '<p class="page-sub g6-overview">' + esc(s.overview) + "</p>" : "") +
       "</div></section>" +
@@ -2135,7 +2133,7 @@
       // filtered portfolio — omit the whole module when no media exists
       (projects.length ? '<section class="section"><div class="container g6-container">' +
       '<div class="section-head reveal"><h2>Selected ' + esc(s.name) + " Work</h2>" +
-      '<a class="g6-viewall" href="g6-work.html?filter=' + encodeURIComponent(id) + '">View all ' + G6_ARROW + "</a></div>" +
+      '<a class="g6-viewall" href="g6/work/?filter=' + encodeURIComponent(id) + '">View all ' + G6_ARROW + "</a></div>" +
       g6PortfolioGrid(projects) +
       "</div></section>" : "") +
 
@@ -2236,7 +2234,7 @@
       '<section class="section page-title g6-page-title"><div class="container g6-container">' +
       "<h1>G6 Models</h1>" +
       (models.intro ? '<p class="page-sub">' + esc(models.intro) + "</p>" : "") +
-      '<p style="margin-top:18px"><a class="btn btn--fill" href="g6-apply.html">Apply to G6 Models</a></p>' +
+      '<p style="margin-top:18px"><a class="btn btn--fill" href="g6/apply/">Apply to G6 Models</a></p>' +
       "</div></section>" +
       '<section class="section"><div class="container g6-container">' + cards + "</div></section>" +
       g6ClosingEl();

@@ -1768,12 +1768,10 @@
 
   function g6ServiceCard(s, i) {
     var mediaLeft = (i % 2 === 1);
-    var idx = "No. " + ("0" + (i + 1)).slice(-2);
     return (
       '<a class="g6-card reveal' + (mediaLeft ? " g6-card--media-left" : "") + '" href="' + attr(s.route || "#") + '" aria-label="' + attr(s.name) + '">' +
       '<div class="g6-card-media">' + g6Media(s.media || {}, { ratioClass: "g6-media-fill" }) + "</div>" +
       '<div class="g6-card-body">' +
-      '<span class="g6-card-index">' + esc(idx) + "</span>" +
       '<h3 class="g6-card-title">' + esc(s.name) + "</h3>" +
       (s.line ? '<p class="g6-card-line">' + esc(s.line) + "</p>" : "") +
       '<span class="g6-card-cta">Explore ' + G6_ARROW + "</span>" +

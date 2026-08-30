@@ -324,7 +324,7 @@ const manifest = all.map(article => ({
 }));
 writeFileSync(join(website, 'content', 'article-manifest.json'), JSON.stringify({ articles: manifest }, null, 2) + '\n');
 
-const fixedPages = ['', 'latest.html', 'fashion.html', 'beauty.html', 'art.html', 'film.html', 'music.html', 'culture.html', 'photography.html', 'the-index.html'];
+const fixedPages = ['', 'latest.html', 'fashion.html', 'beauty.html', 'art.html', 'film.html', 'music.html', 'culture.html', 'photography.html', 'the-index.html', 'g6.html', 'g6-services.html', 'g6-styling.html', 'g6-model-casting.html', 'g6-creative-direction.html', 'g6-personal-shopping.html', 'g6-music-video-production.html', 'g6-work.html', 'g6-models.html', 'g6-apply.html', 'g6-contact.html'];
 const urls = fixedPages.map(p => `${siteUrl}/${p}`);
 for (const article of complete) urls.push(`${siteUrl}/${articleBase}/${article.slug || article.id}/`);
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(url => `  <url><loc>${escapeXml(url)}</loc></url>`).join('\n')}\n</urlset>\n`;

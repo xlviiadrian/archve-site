@@ -44,7 +44,7 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -91,10 +91,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-last-transmission-inside-the-tape-that-a-scene-tried-to-bury",
+        "legacyHref": "article/?id=the-last-transmission-inside-the-tape-that-a-scene-tried-to-bury",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "hero"
           }
         ],
@@ -143,7 +143,7 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -196,10 +196,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-night-shift-portraits-of-the-people-who-keep-the-city-breath",
+        "legacyHref": "article/?id=the-night-shift-portraits-of-the-people-who-keep-the-city-breath",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.1.featured"
           }
         ],
@@ -250,7 +250,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -375,10 +375,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=this-year-cinema-finally-stopped-flinching-at-failure",
+        "legacyHref": "article/?id=this-year-cinema-finally-stopped-flinching-at-failure",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.1.cards.0"
           }
         ],
@@ -429,7 +429,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -508,10 +508,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-label-sewing-its-politics-into-the-seams-and-daring-you-to-n",
+        "legacyHref": "article/?id=the-label-sewing-its-politics-into-the-seams-and-daring-you-to-n",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.1.cards.1"
           }
         ],
@@ -562,7 +562,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -596,10 +596,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=how-a-group-chat-became-the-most-honest-publication-of-the-year",
+        "legacyHref": "article/?id=how-a-group-chat-became-the-most-honest-publication-of-the-year",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.1.cards.2"
           }
         ],
@@ -650,7 +650,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -719,10 +719,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-sculptor-casting-grief-in-salt-then-letting-the-sea-take-it",
+        "legacyHref": "article/?id=the-sculptor-casting-grief-in-salt-then-letting-the-sea-take-it",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.1.cards.3"
           }
         ],
@@ -779,7 +779,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -984,10 +984,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-heart-and-static-of-a-scene-rebuilding-itself-from-nothing",
+        "legacyHref": "article/?id=the-heart-and-static-of-a-scene-rebuilding-itself-from-nothing",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.2.items.0"
           }
         ],
@@ -1044,7 +1044,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -1255,10 +1255,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=inside-an-all-night-listening-party-in-a-building-that-shouldn-t",
+        "legacyHref": "article/?id=inside-an-all-night-listening-party-in-a-building-that-shouldn-t",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.2.items.1"
           }
         ],
@@ -1316,7 +1316,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -1414,10 +1414,10 @@
       ],
       "migration": {
         "contentStatus": "published",
-        "legacyHref": "article.html?id=a-short-history-of-the-sound-everyone-stole-and-no-one-credits",
+        "legacyHref": "article/?id=a-short-history-of-the-sound-everyone-stole-and-no-one-credits",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.2.items.2"
           }
         ]
@@ -1481,7 +1481,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -1764,10 +1764,10 @@
       ],
       "migration": {
         "contentStatus": "published",
-        "legacyHref": "article.html?id=eight-people-on-the-record-that-rearranged-their-lives",
+        "legacyHref": "article/?id=eight-people-on-the-record-that-rearranged-their-lives",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.2.items.3"
           }
         ]
@@ -1817,7 +1817,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -1911,10 +1911,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-last-transmission-inside-the-tape-a-scene-tried-to-bury",
+        "legacyHref": "article/?id=the-last-transmission-inside-the-tape-a-scene-tried-to-bury",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.4.cards.0"
           }
         ],
@@ -1965,7 +1965,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2012,10 +2012,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=what-underground-even-means-when-the-algorithm-is-listening",
+        "legacyHref": "article/?id=what-underground-even-means-when-the-algorithm-is-listening",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.4.cards.1"
           }
         ],
@@ -2066,7 +2066,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2119,10 +2119,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=a-rare-conversation-with-the-producer-who-vanished-for-a-decade",
+        "legacyHref": "article/?id=a-rare-conversation-with-the-producer-who-vanished-for-a-decade",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.4.cards.2"
           }
         ],
@@ -2173,7 +2173,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2208,10 +2208,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-painters-treating-the-group-chat-as-a-life-drawing-class",
+        "legacyHref": "article/?id=the-painters-treating-the-group-chat-as-a-life-drawing-class",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.5.cards.0"
           }
         ],
@@ -2262,7 +2262,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2313,10 +2313,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=charged-photographs-from-a-movement-building-far-from-the-capita",
+        "legacyHref": "article/?id=charged-photographs-from-a-movement-building-far-from-the-capita",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.5.cards.1"
           }
         ],
@@ -2367,7 +2367,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2422,10 +2422,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=remembering-the-zine-that-made-a-scene-then-set-itself-on-fire",
+        "legacyHref": "article/?id=remembering-the-zine-that-made-a-scene-then-set-itself-on-fire",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.5.cards.2"
           }
         ],
@@ -2476,7 +2476,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2589,10 +2589,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-gen-z-tailors-turning-deadstock-into-a-manifesto",
+        "legacyHref": "article/?id=the-gen-z-tailors-turning-deadstock-into-a-manifesto",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.6.cards.0"
           }
         ],
@@ -2643,7 +2643,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -2931,10 +2931,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=meet-the-collective-dressing-a-city-that-refuses-to-behave",
+        "legacyHref": "article/?id=meet-the-collective-dressing-a-city-that-refuses-to-behave",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.6.cards.1"
           }
         ],
@@ -2985,7 +2985,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -3061,10 +3061,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=how-one-runway-quietly-smuggled-the-archive-back-into-fashion",
+        "legacyHref": "article/?id=how-one-runway-quietly-smuggled-the-archive-back-into-fashion",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.6.cards.2"
           }
         ],
@@ -3115,7 +3115,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -3452,10 +3452,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=are-we-being-demonised-for-feeling-anything-at-all-online",
+        "legacyHref": "article/?id=are-we-being-demonised-for-feeling-anything-at-all-online",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.7.cards.0"
           }
         ],
@@ -3506,7 +3506,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -3697,10 +3697,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=a-dispatch-on-what-to-make-read-and-refuse-this-month",
+        "legacyHref": "article/?id=a-dispatch-on-what-to-make-read-and-refuse-this-month",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.7.cards.1"
           }
         ],
@@ -3751,7 +3751,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -3791,10 +3791,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=how-boredom-became-the-last-honest-emotion-left",
+        "legacyHref": "article/?id=how-boredom-became-the-last-honest-emotion-left",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.7.cards.2"
           }
         ],
@@ -3845,7 +3845,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -3890,10 +3890,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=a-director-on-motherhood-desire-and-the-film-that-nearly-broke-h",
+        "legacyHref": "article/?id=a-director-on-motherhood-desire-and-the-film-that-nearly-broke-h",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.9.cards.0"
           }
         ],
@@ -3944,7 +3944,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4035,10 +4035,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=there-s-flesh-everywhere-inside-a-scene-cinema-keeps-censoring",
+        "legacyHref": "article/?id=there-s-flesh-everywhere-inside-a-scene-cinema-keeps-censoring",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.9.cards.1"
           }
         ],
@@ -4089,7 +4089,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4198,10 +4198,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=eleven-films-we-re-travelling-across-the-world-to-see-this-year",
+        "legacyHref": "article/?id=eleven-films-we-re-travelling-across-the-world-to-see-this-year",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.9.cards.2"
           }
         ],
@@ -4252,7 +4252,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4496,10 +4496,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=young-outsiders-find-a-home-behind-the-lens-of-a-football-club",
+        "legacyHref": "article/?id=young-outsiders-find-a-home-behind-the-lens-of-a-football-club",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.10.cards.0"
           }
         ],
@@ -4550,7 +4550,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4629,10 +4629,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-experimental-scene-developing-in-the-north-shot-on-expired-f",
+        "legacyHref": "article/?id=the-experimental-scene-developing-in-the-north-shot-on-expired-f",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.10.cards.1"
           }
         ],
@@ -4683,7 +4683,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4753,10 +4753,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=remembering-the-magazine-that-made-a-splash-then-disappeared",
+        "legacyHref": "article/?id=remembering-the-magazine-that-made-a-splash-then-disappeared",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.10.cards.2"
           }
         ],
@@ -4807,7 +4807,7 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4845,10 +4845,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=ten-accounts-fusing-art-sex-and-static-and-slipping-past-the-cen",
+        "legacyHref": "article/?id=ten-accounts-fusing-art-sex-and-static-and-slipping-past-the-cen",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.11.featured"
           }
         ],
@@ -4899,7 +4899,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -4960,10 +4960,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=is-the-grid-dead-how-a-generation-is-rebuilding-the-feed",
+        "legacyHref": "article/?id=is-the-grid-dead-how-a-generation-is-rebuilding-the-feed",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.11.cards.0"
           }
         ],
@@ -5014,7 +5014,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -5185,10 +5185,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=the-bag-that-everyone-claims-to-hate-and-nobody-can-stop-buying",
+        "legacyHref": "article/?id=the-bag-that-everyone-claims-to-hate-and-nobody-can-stop-buying",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.11.cards.1"
           }
         ],
@@ -5239,7 +5239,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -5280,10 +5280,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=two-writers-on-the-small-terror-of-putting-yourself-out-there",
+        "legacyHref": "article/?id=two-writers-on-the-small-terror-of-putting-yourself-out-there",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.11.cards.2"
           }
         ],
@@ -5334,7 +5334,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "index.html"
+          "/"
         ]
       },
       "seo": {
@@ -5522,10 +5522,10 @@
       ],
       "migration": {
         "contentStatus": "complete",
-        "legacyHref": "article.html?id=meet-the-young-people-building-a-scene-with-no-venue-and-no-mone",
+        "legacyHref": "article/?id=meet-the-young-people-building-a-scene-with-no-venue-and-no-mone",
         "placements": [
           {
-            "page": "index.html",
+            "page": "/",
             "path": "sections.11.cards.3"
           }
         ],
@@ -5579,9 +5579,9 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "photography.html",
-          "photography.html",
-          "the-index.html"
+          "photography/",
+          "photography/",
+          "the-index/"
         ]
       },
       "seo": {
@@ -5596,18 +5596,18 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=steam-sweat-and-silver-pictures-from-the-last-public-baths-in-to",
+        "legacyHref": "article/?id=steam-sweat-and-silver-pictures-from-the-last-public-baths-in-to",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "hero.feature"
           },
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "trending.0"
           },
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.4"
           }
         ]
@@ -5657,8 +5657,8 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "photography.html",
-          "photography.html"
+          "photography/",
+          "photography/"
         ]
       },
       "seo": {
@@ -5673,14 +5673,14 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=these-disposable-camera-diaries-are-the-truest-record-of-a-scene",
+        "legacyHref": "article/?id=these-disposable-camera-diaries-are-the-truest-record-of-a-scene",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "hero.cards.0"
           },
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "trending.1"
           }
         ]
@@ -5730,7 +5730,7 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -5745,10 +5745,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=blissful-frames-of-friends-reuniting-after-a-decade-apart",
+        "legacyHref": "article/?id=blissful-frames-of-friends-reuniting-after-a-decade-apart",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "hero.cards.1"
           }
         ]
@@ -5798,7 +5798,7 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -5813,10 +5813,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-photographer-shooting-only-in-the-ninety-seconds-after-last",
+        "legacyHref": "article/?id=the-photographer-shooting-only-in-the-ninety-seconds-after-last",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "hero.cards.2"
           }
         ]
@@ -5866,7 +5866,7 @@
         "latest": false,
         "featured": true,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -5881,10 +5881,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=a-series-made-entirely-of-pictures-taken-by-accident",
+        "legacyHref": "article/?id=a-series-made-entirely-of-pictures-taken-by-accident",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "hero.cards.3"
           }
         ]
@@ -5934,8 +5934,8 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html",
-          "photography.html"
+          "photography/",
+          "photography/"
         ]
       },
       "seo": {
@@ -5950,14 +5950,14 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-darkroom-collective-developing-film-in-a-converted-bus",
+        "legacyHref": "article/?id=the-darkroom-collective-developing-film-in-a-converted-bus",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "editorsPick.0"
           },
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "trending.2"
           }
         ]
@@ -6007,7 +6007,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6022,10 +6022,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=remembering-the-magazine-that-ran-nothing-but-reader-submissions",
+        "legacyHref": "article/?id=remembering-the-magazine-that-ran-nothing-but-reader-submissions",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "editorsPick.1"
           }
         ]
@@ -6075,7 +6075,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6090,10 +6090,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=why-the-best-photo-book-this-year-is-a-stack-of-gas-station-prin",
+        "legacyHref": "article/?id=why-the-best-photo-book-this-year-is-a-stack-of-gas-station-prin",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "editorsPick.2"
           }
         ]
@@ -6143,7 +6143,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6158,10 +6158,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=portraits-of-the-night-shift-workers-who-keep-the-city-lit",
+        "legacyHref": "article/?id=portraits-of-the-night-shift-workers-who-keep-the-city-lit",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.0"
           }
         ]
@@ -6214,8 +6214,8 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html",
-          "the-index.html"
+          "photography/",
+          "the-index/"
         ]
       },
       "seo": {
@@ -6230,14 +6230,14 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-archive-of-images-no-one-remembers-taking",
+        "legacyHref": "article/?id=the-archive-of-images-no-one-remembers-taking",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.1"
           },
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.11"
           }
         ]
@@ -6287,7 +6287,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6302,10 +6302,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=how-a-light-leak-became-somebody-s-entire-visual-language",
+        "legacyHref": "article/?id=how-a-light-leak-became-somebody-s-entire-visual-language",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.2"
           }
         ]
@@ -6355,7 +6355,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6370,10 +6370,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=a-year-of-the-same-window-photographed-at-the-same-hour",
+        "legacyHref": "article/?id=a-year-of-the-same-window-photographed-at-the-same-hour",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.3"
           }
         ]
@@ -6423,7 +6423,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6438,10 +6438,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-kids-documenting-their-own-block-before-it-s-gone",
+        "legacyHref": "article/?id=the-kids-documenting-their-own-block-before-it-s-gone",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.4"
           }
         ]
@@ -6491,7 +6491,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6506,10 +6506,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=found-film-from-a-camera-bought-at-an-estate-sale",
+        "legacyHref": "article/?id=found-film-from-a-camera-bought-at-an-estate-sale",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.5"
           }
         ]
@@ -6559,7 +6559,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6574,10 +6574,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=an-interview-with-the-photographer-who-never-shows-faces",
+        "legacyHref": "article/?id=an-interview-with-the-photographer-who-never-shows-faces",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.6"
           }
         ]
@@ -6627,7 +6627,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6642,10 +6642,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-disposable-camera-wedding-that-became-a-cult-photo-zine",
+        "legacyHref": "article/?id=the-disposable-camera-wedding-that-became-a-cult-photo-zine",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.7"
           }
         ]
@@ -6695,7 +6695,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6710,10 +6710,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=pictures-from-the-parking-lot-where-everyone-ends-up-eventually",
+        "legacyHref": "article/?id=pictures-from-the-parking-lot-where-everyone-ends-up-eventually",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.8"
           }
         ]
@@ -6763,7 +6763,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6778,10 +6778,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-last-roll-a-photographer-says-goodbye-to-a-shuttered-lab",
+        "legacyHref": "article/?id=the-last-roll-a-photographer-says-goodbye-to-a-shuttered-lab",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.9"
           }
         ]
@@ -6831,7 +6831,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6846,10 +6846,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=why-blurry-badly-lit-and-honest-beats-sharp-and-staged",
+        "legacyHref": "article/?id=why-blurry-badly-lit-and-honest-beats-sharp-and-staged",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.10"
           }
         ]
@@ -6899,7 +6899,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "photography.html"
+          "photography/"
         ]
       },
       "seo": {
@@ -6914,10 +6914,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=a-weekend-inside-the-print-swap-that-trades-in-mistakes",
+        "legacyHref": "article/?id=a-weekend-inside-the-print-swap-that-trades-in-mistakes",
         "placements": [
           {
-            "page": "photography.html",
+            "page": "photography/",
             "path": "latest.11"
           }
         ]
@@ -6970,7 +6970,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -6985,10 +6985,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=meet-the-market-stall-kids-rewriting-what-the-city-wears",
+        "legacyHref": "article/?id=meet-the-market-stall-kids-rewriting-what-the-city-wears",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.0"
           }
         ]
@@ -7041,7 +7041,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7056,10 +7056,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=in-the-group-houses-a-generation-is-quietly-rewriting-how-to-liv",
+        "legacyHref": "article/?id=in-the-group-houses-a-generation-is-quietly-rewriting-how-to-liv",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.1"
           }
         ]
@@ -7112,7 +7112,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7127,10 +7127,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=this-year-the-camera-is-pointing-back-at-the-people-who-hold-it",
+        "legacyHref": "article/?id=this-year-the-camera-is-pointing-back-at-the-people-who-hold-it",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.2"
           }
         ]
@@ -7183,7 +7183,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7198,10 +7198,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-last-transmission-inside-the-tape-traders-keeping-dead-scene",
+        "legacyHref": "article/?id=the-last-transmission-inside-the-tape-traders-keeping-dead-scene",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.3"
           }
         ]
@@ -7254,7 +7254,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7269,10 +7269,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=charged-pictures-from-the-studio-that-only-opens-when-it-rains",
+        "legacyHref": "article/?id=charged-pictures-from-the-studio-that-only-opens-when-it-rains",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.5"
           }
         ]
@@ -7325,7 +7325,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7340,10 +7340,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=is-being-busy-dead-a-generation-is-finding-out",
+        "legacyHref": "article/?id=is-being-busy-dead-a-generation-is-finding-out",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.6"
           }
         ]
@@ -7396,7 +7396,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7411,10 +7411,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=inside-the-group-chat-that-books-the-shows-the-venues-won-t",
+        "legacyHref": "article/?id=inside-the-group-chat-that-books-the-shows-the-venues-won-t",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.7"
           }
         ]
@@ -7467,7 +7467,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7482,10 +7482,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-must-see-cult-comedy-nobody-is-allowed-to-stream",
+        "legacyHref": "article/?id=the-must-see-cult-comedy-nobody-is-allowed-to-stream",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.8"
           }
         ]
@@ -7538,7 +7538,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7553,10 +7553,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-shop-with-no-sign-no-hours-and-a-line-down-the-block",
+        "legacyHref": "article/?id=the-shop-with-no-sign-no-hours-and-a-line-down-the-block",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.9"
           }
         ]
@@ -7609,7 +7609,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7624,10 +7624,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=a-collective-is-turning-demolition-sites-into-one-night-gallerie",
+        "legacyHref": "article/?id=a-collective-is-turning-demolition-sites-into-one-night-gallerie",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.10"
           }
         ]
@@ -7680,7 +7680,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7695,10 +7695,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=the-demo-tape-that-predicted-a-genre-a-decade-early",
+        "legacyHref": "article/?id=the-demo-tape-that-predicted-a-genre-a-decade-early",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.12"
           }
         ]
@@ -7751,7 +7751,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7766,10 +7766,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=found-photographs-and-the-strangers-trying-to-name-them",
+        "legacyHref": "article/?id=found-photographs-and-the-strangers-trying-to-name-them",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.13"
           }
         ]
@@ -7822,7 +7822,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7837,10 +7837,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=why-the-most-subversive-thing-left-is-showing-up-on-time",
+        "legacyHref": "article/?id=why-the-most-subversive-thing-left-is-showing-up-on-time",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.14"
           }
         ]
@@ -7893,7 +7893,7 @@
         "latest": false,
         "featured": false,
         "pages": [
-          "the-index.html"
+          "the-index/"
         ]
       },
       "seo": {
@@ -7908,10 +7908,10 @@
       "body": [],
       "migration": {
         "contentStatus": "needs-copy",
-        "legacyHref": "article.html?id=are-one-take-phone-films-the-future-of-the-form",
+        "legacyHref": "article/?id=are-one-take-phone-films-the-future-of-the-form",
         "placements": [
           {
-            "page": "the-index.html",
+            "page": "the-index/",
             "path": "stories.15"
           }
         ]

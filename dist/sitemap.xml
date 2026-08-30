@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://archvemag.com/</loc></url>
-  <url><loc>https://archvemag.com/latest.html</loc></url>
-  <url><loc>https://archvemag.com/fashion.html</loc></url>
-  <url><loc>https://archvemag.com/beauty.html</loc></url>
-  <url><loc>https://archvemag.com/art.html</loc></url>
-  <url><loc>https://archvemag.com/film.html</loc></url>
-  <url><loc>https://archvemag.com/music.html</loc></url>
-  <url><loc>https://archvemag.com/culture.html</loc></url>
-  <url><loc>https://archvemag.com/photography.html</loc></url>
-  <url><loc>https://archvemag.com/the-index.html</loc></url>
+  <url><loc>https://archvemag.com/latest/</loc></url>
+  <url><loc>https://archvemag.com/fashion/</loc></url>
+  <url><loc>https://archvemag.com/beauty/</loc></url>
+  <url><loc>https://archvemag.com/art/</loc></url>
+  <url><loc>https://archvemag.com/film/</loc></url>
+  <url><loc>https://archvemag.com/music/</loc></url>
+  <url><loc>https://archvemag.com/culture/</loc></url>
+  <url><loc>https://archvemag.com/photography/</loc></url>
+  <url><loc>https://archvemag.com/the-index/</loc></url>
+  <url><loc>https://archvemag.com/g6/</loc></url>
+  <url><loc>https://archvemag.com/g6/services/</loc></url>
+  <url><loc>https://archvemag.com/g6/styling/</loc></url>
+  <url><loc>https://archvemag.com/g6/model-casting/</loc></url>
+  <url><loc>https://archvemag.com/g6/creative-direction/</loc></url>
+  <url><loc>https://archvemag.com/g6/personal-shopping/</loc></url>
+  <url><loc>https://archvemag.com/g6/music-video-production/</loc></url>
+  <url><loc>https://archvemag.com/g6/work/</loc></url>
+  <url><loc>https://archvemag.com/g6/models/</loc></url>
+  <url><loc>https://archvemag.com/g6/apply/</loc></url>
+  <url><loc>https://archvemag.com/g6/contact/</loc></url>
   <url><loc>https://archvemag.com/articles/help-fund-our-first-issue-limited-edition-icon-keychain-sets/</loc></url>
   <url><loc>https://archvemag.com/articles/what-the-f-ck-is-archve/</loc></url>
   <url><loc>https://archvemag.com/articles/10-of-the-sexiest-summer-films-of-all-time/</loc></url>

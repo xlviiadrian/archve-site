@@ -1048,3 +1048,204 @@ body.lightbox-open{overflow:hidden}
   .g6-page .g6-roster{grid-template-columns:1fr 1fr}
   .g6-page .g6-mt-head{flex-direction:column;align-items:flex-start}
 }
+
+/* =====================================================================
+   MOBILE HEADER + G6 CLEANUP — 2026-08-29
+   Keep the full ARCHVE MAGAZINE wordmark visible at the left on mobile,
+   make G6 service cards read as compact thumbnail buttons, and remove the
+   small accession/service metadata labels from G6 cards and work modules.
+   ===================================================================== */
+
+/* Remove G6 "No. 01" style accession labels everywhere. */
+.g6-page .g6-card-index{display:none!important}
+
+/* Remove the small grey service/role metadata beneath G6 work images. */
+.g6-page .g6-feat-meta{display:none!important}
+
+@media (max-width:760px){
+  /* Mobile header: full ARCHVE MAGAZINE wordmark, left aligned. */
+  .header-bar{
+    grid-template-columns:minmax(0,1fr) auto;
+    column-gap:10px;
+  }
+  .header-bar .brand,
+  .brand{
+    grid-column:1;
+    justify-self:start;
+    width:min(47vw,190px);
+  }
+  .header-top .brand img{
+    width:100%;
+    max-width:190px;
+    height:auto;
+  }
+  .header-icon-cluster{
+    grid-column:2;
+    justify-self:end;
+  }
+
+  /* G6 service links become compact image-led buttons on phones. */
+  .g6-page .g6-card,
+  .g6-page .g6-card--media-left{
+    grid-template-columns:minmax(112px,36%) minmax(0,1fr);
+    grid-template-areas:"media body";
+    min-height:132px;
+    border-radius:22px;
+  }
+  .g6-page .g6-card-media{
+    aspect-ratio:auto;
+    min-height:132px;
+  }
+  .g6-page .g6-card-media .media{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+  }
+  .g6-page .g6-card-media .media>img,
+  .g6-page .g6-card-media .media>video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+  .g6-page .g6-card-body{
+    padding:18px 18px 18px 20px;
+    gap:.4rem;
+  }
+  .g6-page .g6-card-title{
+    font-size:clamp(1.25rem,5.8vw,1.8rem);
+  }
+  .g6-page .g6-card-line{
+    font-size:.9rem;
+    line-height:1.3;
+  }
+  .g6-page .g6-card-cta{
+    margin-top:.15rem;
+  }
+}
+
+@media (max-width:420px){
+  .header-bar .brand,
+  .brand{width:min(49vw,176px)}
+  .header-top .brand img{max-width:176px}
+  .g6-page .g6-card,
+  .g6-page .g6-card--media-left{
+    grid-template-columns:minmax(104px,38%) minmax(0,1fr);
+    min-height:120px;
+  }
+  .g6-page .g6-card-media{min-height:120px}
+  .g6-page .g6-card-body{padding:15px 14px 15px 16px}
+  .g6-page .g6-card-line{display:none}
+}
+
+/* =====================================================================
+   FINAL MOBILE POLISH + NEWSLETTER SPACING — 2026-08-29
+   ===================================================================== */
+
+/* Newsletter modules: roomy rectangular editorial panels, never pill-tight. */
+.newsletter .container{
+  width:min(calc(100% - 32px),760px);
+  padding:clamp(30px,5vw,54px) clamp(22px,5vw,54px);
+  border:1px solid var(--line);
+  background:#050505;
+}
+.newsletter form{
+  max-width:610px;
+  gap:12px;
+  margin:clamp(24px,3vw,32px) auto 16px;
+}
+.newsletter input{
+  min-height:54px;
+  border:1px solid var(--line);
+  border-radius:0;
+  padding:14px 18px;
+  background:#000;
+}
+.newsletter .btn{
+  min-height:54px;
+  border-radius:0;
+  padding:14px 24px;
+  border:1px solid var(--text);
+}
+.newsletter .sub{line-height:1.45;max-width:52ch;margin-inline:auto}
+
+@media (max-width:760px){
+  /* Give the mobile masthead breathing room while keeping the full wordmark. */
+  .site-header{position:sticky;top:0}
+  .header-top .container--wide{padding-inline:14px}
+  .header-bar{
+    min-height:72px;
+    padding-block:11px;
+    grid-template-columns:minmax(0,1fr) auto;
+    column-gap:12px;
+  }
+  .header-bar .brand,
+  .brand{
+    width:min(52vw,205px);
+    max-width:205px;
+    overflow:visible;
+  }
+  .header-top .brand img{
+    width:100%;
+    max-width:none;
+    height:auto;
+  }
+  .header-icon-cluster{gap:3px}
+  .header-icon-cluster .icon-btn{width:34px;height:42px}
+  .header-icon-cluster .icon-btn svg{width:25px;height:25px}
+
+  /* G6: clean, tactile thumbnail buttons with enough negative space. */
+  .g6-page .g6-services{margin-top:clamp(40px,10vw,64px)}
+  .g6-page .g6-card-stack{gap:14px}
+  .g6-page .g6-card,
+  .g6-page .g6-card--media-left{
+    grid-template-columns:minmax(118px,38%) minmax(0,1fr);
+    grid-template-areas:"media body";
+    min-height:138px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,.09);
+  }
+  .g6-page .g6-card-media{min-height:138px}
+  .g6-page .g6-card-body{padding:20px 18px;gap:.45rem}
+  .g6-page .g6-card-title{font-size:clamp(1.28rem,5.5vw,1.75rem);line-height:1.02}
+  .g6-page .g6-card-line{font-size:.88rem;line-height:1.35;max-width:24ch}
+  .g6-page .g6-card-cta{font-size:.66rem;letter-spacing:.1em;margin-top:.25rem}
+
+  /* Mobile G6 image modules should stay image-first; remove metadata rows. */
+  .g6-page .g6-feat-cap{padding:12px 14px;background:linear-gradient(180deg,transparent,rgba(0,0,0,.68))}
+  .g6-page .g6-feat-meta{display:none!important}
+  .g6-page .g6-feat-title{font-size:.92rem}
+
+  /* More comfortable mobile page rhythm. */
+  .g6-page .g6-intro-text{padding-block:30px;font-size:clamp(1.35rem,7vw,2rem)}
+  .g6-page .section-head{margin-bottom:20px}
+  .g6-page .g6-feature-grid,.g6-page .g6-portfolio{gap:14px}
+  .g6-page .g6-closing-inner{padding-block:54px}
+
+  /* Newsletter: stacked rectangles with visible separation and generous touch targets. */
+  .newsletter{padding-block:42px}
+  .newsletter .container{
+    width:calc(100% - 28px);
+    padding:32px 20px;
+  }
+  .newsletter form{flex-direction:column;gap:12px;margin-top:24px}
+  .newsletter input{width:100%;min-height:56px;border-right:1px solid var(--line);padding:16px 17px}
+  .newsletter .btn{width:100%;min-height:56px;margin-top:0;padding:16px 18px}
+}
+
+@media (max-width:420px){
+  .header-top .container--wide{padding-inline:12px}
+  .header-bar .brand,.brand{width:min(50vw,184px);max-width:184px}
+  .header-icon-cluster .icon-btn{width:31px}
+  .g6-page .g6-card,.g6-page .g6-card--media-left{
+    grid-template-columns:minmax(108px,37%) minmax(0,1fr);
+    min-height:126px;
+    border-radius:16px;
+  }
+  .g6-page .g6-card-media{min-height:126px}
+  .g6-page .g6-card-body{padding:17px 14px}
+  .g6-page .g6-card-title{font-size:1.28rem}
+  .g6-page .g6-card-line{display:none}
+  .newsletter .container{width:calc(100% - 20px);padding:28px 16px}
+}
+

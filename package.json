@@ -7,7 +7,8 @@
     "publication:migrate": "node scripts/publication/migrate-legacy.mjs",
     "publication:validate": "node scripts/publication/validate.mjs",
     "publication:build": "node scripts/publication/build-publication.mjs",
-    "build": "node scripts/publication/build-publication.mjs && node build.mjs"
+    "build": "node scripts/publication/build-publication.mjs && node build.mjs && node scripts/seo-audit.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs"
   },
   "displayName": "ARCHVE Magazine"
 }

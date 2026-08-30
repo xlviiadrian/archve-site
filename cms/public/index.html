@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ARCHVE CMS</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <strong>ARCHVE CMS</strong>
+    <div class="top-actions"><button id="mediaBtn" type="button">MEDIA LIBRARY</button><button id="buildBtn">BUILD STATIC SITE</button><a href="/site/index.html" target="_blank" rel="noopener">OPEN SITE</a></div>
+  </header>
+  <div class="app">
+    <aside class="sidebar">
+      <button id="newBtn" class="primary">+ NEW ARTICLE</button>
+      <input id="search" placeholder="Search articles">
+      <select id="statusFilter"><option value="">All statuses</option><option>draft</option><option>published</option><option>unpublished</option><option>legacy-placeholder</option></select>
+      <div id="articleList" class="article-list"></div>
+    </aside>
+    <main class="editor">
+      <div id="empty" class="empty">Select an article or create a new one.</div>
+      <form id="form" hidden>
+        <div class="editor-head">
+          <div><div class="kicker" id="articleId"></div><h1 id="editorTitle">Edit article</h1></div>
+          <div class="editor-actions"><button type="button" id="duplicateBtn">DUPLICATE</button><button type="button" id="previewBtn">PREVIEW</button><button type="submit" class="primary">SAVE</button></div>
+        </div>
+
+        <section class="panel grid two">
+          <label>Headline<input name="title" required></label>
+          <label>Permanent slug<input name="slug" required><small class="hint">Locked after publication unless you deliberately change it.</small></label>
+          <label>Status<select name="status"><option>draft</option><option>published</option><option>unpublished</option><option>legacy-placeholder</option></select></label>
+          <label>Primary category<select name="category"><option>Latest</option><option>Fashion</option><option>Beauty</option><option>Art &amp; Photography</option><option>Film &amp; TV</option><option>Music</option><option>Life &amp; Culture</option></select></label>
+          <label>Author<input name="author"></label>
+          <label>Publish date<input name="date" placeholder="August 29, 2026"></label>
+          <label>Updated date<input name="updatedDate" placeholder="Optional"></label>
+          <label class="full">Description / Deck<textarea name="dek" rows="3"></textarea></label>
+          <label class="full">Tags (comma separated)<input name="tags"></label>
+          <div class="full"><span class="field-label">Also publish in (cross-post)</span><div id="crosspost" class="crosspost"></div></div>
+          <div class="checks full"><label><input type="checkbox" name="home"> Show on homepage</label><label><input type="checkbox" name="latest"> Show in Latest</label></div>
+          <label class="full">Homepage placement
+            <select name="homeSection">
+              <option value="">Not on homepage</option>
+              <option value="latest">Homepage · Latest cards</option>
+              <option value="rotation">Homepage · In Rotation carousel</option>
+              <option value="music">Homepage · Music grid</option>
+              <option value="art">Homepage · Art grid</option>
+              <option value="fashion">Homepage · Fashion grid</option>
+              <option value="culture">Homepage · Culture grid</option>
+              <option value="film">Homepage · Film grid</option>
+              <option value="photography">Homepage · Photography grid</option>
+              <option value="trending">Homepage · Trending cards</option>
+            </select>
+            <small class="hint">These are existing ARCHVE module layouts. Curated hero/featured positions stay manual and are never replaced automatically.</small>
+          </label>
+        </section>
+
+        <section class="panel"><h2>Images</h2><div class="grid three">
+          <div class="upload-field"><label>Thumbnail path<input name="thumbSrc"></label><label>Thumbnail alt<input name="thumbAlt"></label><input type="file" id="thumbUpload" accept="image/png,image/jpeg,image/webp,image/avif"></div>
+          <div class="upload-field"><label>Hero path<input name="heroSrc"></label><label>Hero alt<input name="heroAlt"></label><input type="file" id="heroUpload" accept="image/png,image/jpeg,image/webp,image/avif"></div>
+          <div class="upload-field"><label>Social / OG image path<input name="socialSrc" placeholder="Leave blank to use hero"></label><input type="file" id="socialUpload" accept="image/png,image/jpeg,image/webp,image/avif"><small class="hint">Optional. Used for social previews; hero image remains the fallback.</small></div>
+        </div></section>
+
+        <section class="panel">
+          <div class="section-title"><h2>Article blocks</h2><select id="addBlock">
+            <option value="">+ Add block…</option>
+            <option value="paragraph">Paragraph / Rich text</option>
+            <option value="heading">Heading</option>
+            <option value="subheading">Subheading</option>
+            <option value="quote">Quote</option>
+            <option value="image">Image</option>
+            <option value="fullImage">Full-width image</option>
+            <option value="gallery">Gallery</option>
+            <option value="video">Video / Embed</option>
+            <option value="spotify">Spotify embed</option>
+            <option value="soundcloud">SoundCloud embed</option>
+            <option value="relatedArticle">Related ARCHVE article</option>
+            <option value="divider">Divider</option>
+            <option value="spacer">Spacer</option>
+            <option value="link">Link / CTA</option>
+            <option value="credit">Credit</option>
+          </select></div>
+          <div id="blocks"></div>
+        </section>
+
+        <section class="panel"><h2>SEO</h2><div id="seoWarnings" class="seo-warnings"></div><div class="grid two">
+          <label>SEO title<input name="seoTitle"></label>
+          <label>Primary keyword<input name="keyword"></label>
+          <label class="full">Meta description<textarea name="seoDescription" rows="3"></textarea></label>
+          <label>Open Graph title<input name="ogTitle" placeholder="Defaults to SEO title"></label>
+          <label>Open Graph description<input name="ogDescription" placeholder="Defaults to meta description"></label>
+          <label class="full">Canonical URL<input name="canonical" placeholder="Leave blank to auto-generate"></label>
+        </div></section>
+
+        <div class="danger-zone"><button type="button" id="deleteBtn">DELETE ARTICLE</button><span id="saveState"></span></div>
+      </form>
+    </main>
+  </div>
+  <div class="media-modal" id="mediaModal" hidden>
+    <div class="media-modal-backdrop" data-close-media></div>
+    <section class="media-modal-panel" role="dialog" aria-modal="true" aria-labelledby="mediaTitle">
+      <div class="media-modal-head"><div><div class="kicker">ARCHVE ASSETS</div><h2 id="mediaTitle">Media Library</h2></div><button type="button" data-close-media>CLOSE</button></div>
+      <div class="media-controls"><input id="mediaSearch" placeholder="Search image paths"><select id="mediaTarget"><option value="copy">Click image: copy path</option><option value="thumbSrc">Use as article thumbnail</option><option value="heroSrc">Use as article hero</option><option value="socialSrc">Use as social / OG image</option></select></div>
+      <p class="hint">Shows images already stored under <code>website/assets/images/</code>. Selecting an image never duplicates the file.</p>
+      <div id="mediaGrid" class="media-grid"></div>
+    </section>
+  </div>
+
+<script src="admin.js"></script>
+</body>
+</html>

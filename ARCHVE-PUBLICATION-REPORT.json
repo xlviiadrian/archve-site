@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-08-30T00:36:42.104Z",
+  "totals": {
+    "catalog": 67,
+    "staticPages": 33,
+    "needsCopy": 34,
+    "issues": 34
+  },
+  "generatedArticleIds": [
+    "the-last-transmission-inside-the-tape-that-a-scene-tried-to-bury",
+    "the-night-shift-portraits-of-the-people-who-keep-the-city-breath",
+    "this-year-cinema-finally-stopped-flinching-at-failure",
+    "the-label-sewing-its-politics-into-the-seams-and-daring-you-to-n",
+    "how-a-group-chat-became-the-most-honest-publication-of-the-year",
+    "the-sculptor-casting-grief-in-salt-then-letting-the-sea-take-it",
+    "the-heart-and-static-of-a-scene-rebuilding-itself-from-nothing",
+    "inside-an-all-night-listening-party-in-a-building-that-shouldn-t",
+    "a-short-history-of-the-sound-everyone-stole-and-no-one-credits",
+    "eight-people-on-the-record-that-rearranged-their-lives",
+    "the-last-transmission-inside-the-tape-a-scene-tried-to-bury",
+    "what-underground-even-means-when-the-algorithm-is-listening",
+    "a-rare-conversation-with-the-producer-who-vanished-for-a-decade",
+    "the-painters-treating-the-group-chat-as-a-life-drawing-class",
+    "charged-photographs-from-a-movement-building-far-from-the-capita",
+    "remembering-the-zine-that-made-a-scene-then-set-itself-on-fire",
+    "the-gen-z-tailors-turning-deadstock-into-a-manifesto",
+    "meet-the-collective-dressing-a-city-that-refuses-to-behave",
+    "how-one-runway-quietly-smuggled-the-archive-back-into-fashion",
+    "are-we-being-demonised-for-feeling-anything-at-all-online",
+    "a-dispatch-on-what-to-make-read-and-refuse-this-month",
+    "how-boredom-became-the-last-honest-emotion-left",
+    "a-director-on-motherhood-desire-and-the-film-that-nearly-broke-h",
+    "there-s-flesh-everywhere-inside-a-scene-cinema-keeps-censoring",
+    "eleven-films-we-re-travelling-across-the-world-to-see-this-year",
+    "young-outsiders-find-a-home-behind-the-lens-of-a-football-club",
+    "the-experimental-scene-developing-in-the-north-shot-on-expired-f",
+    "remembering-the-magazine-that-made-a-splash-then-disappeared",
+    "ten-accounts-fusing-art-sex-and-static-and-slipping-past-the-cen",
+    "is-the-grid-dead-how-a-generation-is-rebuilding-the-feed",
+    "the-bag-that-everyone-claims-to-hate-and-nobody-can-stop-buying",
+    "two-writers-on-the-small-terror-of-putting-yourself-out-there",
+    "meet-the-young-people-building-a-scene-with-no-venue-and-no-mone"
+  ],
+  "issues": [
+    {
+      "severity": "info",
+      "article": "steam-sweat-and-silver-pictures-from-the-last-public-baths-in-to",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "these-disposable-camera-diaries-are-the-truest-record-of-a-scene",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "blissful-frames-of-friends-reuniting-after-a-decade-apart",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-photographer-shooting-only-in-the-ninety-seconds-after-last",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "a-series-made-entirely-of-pictures-taken-by-accident",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-darkroom-collective-developing-film-in-a-converted-bus",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "remembering-the-magazine-that-ran-nothing-but-reader-submissions",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "why-the-best-photo-book-this-year-is-a-stack-of-gas-station-prin",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "portraits-of-the-night-shift-workers-who-keep-the-city-lit",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-archive-of-images-no-one-remembers-taking",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "how-a-light-leak-became-somebody-s-entire-visual-language",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "a-year-of-the-same-window-photographed-at-the-same-hour",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-kids-documenting-their-own-block-before-it-s-gone",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "found-film-from-a-camera-bought-at-an-estate-sale",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "an-interview-with-the-photographer-who-never-shows-faces",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-disposable-camera-wedding-that-became-a-cult-photo-zine",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "pictures-from-the-parking-lot-where-everyone-ends-up-eventually",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-last-roll-a-photographer-says-goodbye-to-a-shuttered-lab",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "why-blurry-badly-lit-and-honest-beats-sharp-and-staged",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "a-weekend-inside-the-print-swap-that-trades-in-mistakes",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "meet-the-market-stall-kids-rewriting-what-the-city-wears",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "in-the-group-houses-a-generation-is-quietly-rewriting-how-to-liv",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "this-year-the-camera-is-pointing-back-at-the-people-who-hold-it",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-last-transmission-inside-the-tape-traders-keeping-dead-scene",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "charged-pictures-from-the-studio-that-only-opens-when-it-rains",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "is-being-busy-dead-a-generation-is-finding-out",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "inside-the-group-chat-that-books-the-shows-the-venues-won-t",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-must-see-cult-comedy-nobody-is-allowed-to-stream",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-shop-with-no-sign-no-hours-and-a-line-down-the-block",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "a-collective-is-turning-demolition-sites-into-one-night-gallerie",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "the-demo-tape-that-predicted-a-genre-a-decade-early",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "found-photographs-and-the-strangers-trying-to-name-them",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "why-the-most-subversive-thing-left-is-showing-up-on-time",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    },
+    {
+      "severity": "info",
+      "article": "are-one-take-phone-films-the-future-of-the-form",
+      "issue": "Legacy card still needs real article copy before static SEO publication"
+    }
+  ]
+}

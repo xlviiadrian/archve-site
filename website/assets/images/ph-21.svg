@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="ARCHVE placeholder">
+  <defs><filter id="g21" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="21" stitchTiles="stitch" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="v21" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+  </linearGradient></defs>
+  <rect x="0" y="0" width="1200" height="900" fill="#141414"/>
+    <rect x="0" y="0" width="1200" height="900" fill="#2d2d2d"/>
+    <polygon points="130,0 274,0 -470,900 -614,900" fill="#525252"/>
+    <polygon points="909,0 1053,0 309,900 165,900" fill="#444444"/>
+    <polygon points="-29,0 115,0 -629,900 -773,900" fill="#2d2d2d"/>
+    <polygon points="1110,0 1254,0 510,900 366,900" fill="#444444"/>
+    <polygon points="-352,0 -208,0 -952,900 -1096,900" fill="#2d2d2d"/>
+    <polygon points="1113,0 1257,0 513,900 369,900" fill="#525252"/>
+  <rect x="0" y="0" width="1200" height="900" fill="url(#v21)"/>
+  <text x="600" y="450" font-family="Helvetica,Arial,sans-serif" font-size="117" font-weight="900" fill="#ffffff" fill-opacity="0.05" text-anchor="middle" dominant-baseline="middle" letter-spacing="4">ARCHVE</text>
+</svg>

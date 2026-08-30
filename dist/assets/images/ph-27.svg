@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="ARCHVE placeholder">
+  <defs><filter id="g27" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="27" stitchTiles="stitch" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.05 0"/>
+  </filter>
+  <linearGradient id="v27" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+    <stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+  </linearGradient></defs>
+  <rect x="0" y="0" width="900" height="1200" fill="#141414"/>
+    <rect x="0" y="0" width="900" height="1200" fill="#232323"/>
+    <line x1="150" y1="0" x2="150" y2="1200" stroke="#383838" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="1200" stroke="#383838" stroke-width="1"/>
+    <line x1="450" y1="0" x2="450" y2="1200" stroke="#383838" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="1200" stroke="#383838" stroke-width="1"/>
+    <line x1="750" y1="0" x2="750" y2="1200" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="150" x2="900" y2="150" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="300" x2="900" y2="300" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="450" x2="900" y2="450" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="600" x2="900" y2="600" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="750" x2="900" y2="750" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="900" x2="900" y2="900" stroke="#383838" stroke-width="1"/>
+    <line x1="0" y1="1050" x2="900" y2="1050" stroke="#383838" stroke-width="1"/>
+  <rect x="0" y="0" width="900" height="1200" fill="url(#v27)"/>
+  <text x="450" y="600" font-family="Helvetica,Arial,sans-serif" font-size="117" font-weight="900" fill="#ffffff" fill-opacity="0.05" text-anchor="middle" dominant-baseline="middle" letter-spacing="4">ARCHVE</text>
+</svg>

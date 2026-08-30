@@ -1,0 +1,8 @@
+{
+  "siteUrl": "https://archvemag.com",
+  "articleBasePath": "articles",
+  "publisherName": "ARCHVE MAGAZINE",
+  "defaultAuthor": "ARCHVE Magazine",
+  "defaultSocialImage": "assets/logos/archve-favicon.png",
+  "indexOnlyCompleteArticles": true
+}

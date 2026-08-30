@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "ARCHVE",
+    "logo": "assets/logos/ARCHVETOP.svg",
+    "backronym": "A Rare Collection Of Human Visual Experiences",
+    "tagline": "Music · Art · Human Experiences",
+    "homeHref": "index.html"
+  },
+  "nav": [
+    {
+      "label": "Shop",
+      "href": "https://shop.archvemag.com"
+    },
+    {
+      "label": "Latest",
+      "href": "latest.html"
+    },
+    {
+      "label": "Fashion",
+      "href": "fashion.html"
+    },
+    {
+      "label": "Beauty",
+      "href": "beauty.html"
+    },
+    {
+      "label": "Art & Photography",
+      "href": "art.html"
+    },
+    {
+      "label": "Film & TV",
+      "href": "film.html"
+    },
+    {
+      "label": "Music",
+      "href": "music.html"
+    },
+    {
+      "label": "Life & Culture",
+      "href": "culture.html"
+    },
+    {
+      "label": "G6 AGENCY",
+      "href": "g6.html"
+    }
+  ],
+  "search": {
+    "placeholder": "Search"
+  },
+  "newsletter": {
+    "heading": "Escape the algorithm! Get The Drop",
+    "placeholder": "Enter email address",
+    "button": "Sign up",
+    "sub": "Get must-see stories direct to your inbox every weekday.",
+    "privacyLabel": "Privacy policy",
+    "privacyHref": "#privacy"
+  },
+  "footer": {
+    "ticker": {
+      "label": "ARCHVE",
+      "href": "index.html"
+    },
+    "socials": [
+      {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/archvemag/",
+        "icon": "instagram"
+      },
+      {
+        "label": "TikTok",
+        "href": "https://www.tiktok.com/@archvemag",
+        "icon": "tiktok"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Archvemag",
+        "icon": "x"
+      },
+      {
+        "label": "YouTube",
+        "href": "https://www.youtube.com/@ARCHVEMAG",
+        "icon": "youtube"
+      },
+      {
+        "label": "Spotify",
+        "href": "https://open.spotify.com/user/31caithybxn7jyqt3ciniwd2wcmy",
+        "icon": "spotify"
+      }
+    ],
+    "links": [
+      {
+        "label": "Submit",
+        "href": "#tally-open=eqoRyO&tally-align-left=1&tally-overlay=1&tally-emoji-animation=none&tally-auto-close=0"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      },
+      {
+        "label": "Stockists",
+        "href": "#stockists"
+      },
+      {
+        "label": "Advertise",
+        "href": "#advertise"
+      },
+      {
+        "label": "Privacy policy",
+        "href": "#privacy"
+      }
+    ],
+    "network": {
+      "lead": "",
+      "items": [
+        {
+          "label": "ARCHVE Magazine",
+          "href": "index.html"
+        },
+        {
+          "label": "G6 Agency",
+          "href": "g6.html"
+        },
+        {
+          "label": "World Mafia Media",
+          "href": "#"
+        },
+        {
+          "label": "XLVII47",
+          "href": "https://xlvii47.com"
+        },
+        {
+          "label": "Subscribe",
+          "href": "#tally-open=kdrEPd&tally-layout=modal&tally-overlay=1&tally-auto-close=0"
+        }
+      ]
+    },
+    "fine": "© 2026 ARCHVE — Art, Records, Culture, Visions & Expression."
+  }
+}

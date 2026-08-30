@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARCHVE — A Rare Collection Of Human Visual Experiences</title>
+  <meta name="description" content="ARCHVE is an independent magazine documenting music, art and real human experiences. Open submissions. Every page an art object.">
+  <meta name="theme-color" content="#000000">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ARCHVE">
+  <meta property="og:description" content="A Rare Collection Of Human Visual Experiences — music, art and human experiences.">
+  <meta property="og:image" content="assets/images/monkey.jpg">
+
+  <link rel="icon" href="assets/logos/archve-favicon.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="assets/logos/archve-favicon.png">
+  <link rel="alternate" type="application/rss+xml" title="ARCHVE MAGAZINE RSS" href="rss.xml">
+
+  <!-- Preload the display weights used above the fold -->
+  <link rel="preload" href="assets/fonts/NeueHaasDisplayBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/NeueHaasDisplayRoman.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/NeueHaasDisplayBlack.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="site-header" role="banner"><!-- rendered by main.js --></header>
+
+  <!-- Full-screen mobile navigation overlay -->
+  <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Site menu"><!-- rendered --></div>
+
+  <main id="main" role="main">
+    <div id="hero-mount"><!-- hero --></div>
+    <div id="sections-mount"><!-- editorial sections --></div>
+  </main>
+
+  <footer class="site-footer" id="site-footer" role="contentinfo"><!-- rendered --></footer>
+
+
+  <!-- ===================================================================
+       EDIT THIS PAGE HERE  ·  HOME PAGE (hero + editorial sections)
+       Everything on the homepage — hero, cards, carousels, sections.
+       Swap an image: change its "src" (e.g. "assets/images/your.jpg").
+       Change text: edit "title", "dek", "heading", etc.
+       This is the ONLY place this page's content lives — no Site Manager,
+       no shared content file. Save the file and reload the page.
+  ==================================================================== -->
+  <script type="application/json" id="page-data">
+{
+  "hero": {
+    "articleId": "the-last-transmission-inside-the-tape-that-a-scene-tried-to-bury"
+  },
+  "sections": [
+    {
+      "type": "newsletter",
+      "id": "newsletter-top"
+    },
+    {
+      "type": "featured-grid",
+      "id": "latest",
+      "title": "Latest",
+      "featured": {
+        "articleId": "the-night-shift-portraits-of-the-people-who-keep-the-city-breath"
+      },
+      "cards": {
+        "_comment": "Opt-in homepage placement. An article appears here only when placement.home is true AND placement.homeSection === \"latest\" (chosen in the CMS). Curated cards below and the featured slot are preserved; new placements lead, capped at limit.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "latest",
+          "limit": 8
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "this-year-cinema-finally-stopped-flinching-at-failure"
+          },
+          {
+            "articleId": "the-label-sewing-its-politics-into-the-seams-and-daring-you-to-n"
+          },
+          {
+            "articleId": "how-a-group-chat-became-the-most-honest-publication-of-the-year"
+          },
+          {
+            "articleId": "the-sculptor-casting-grief-in-salt-then-letting-the-sea-take-it"
+          }
+        ]
+      }
+    },
+    {
+      "type": "spotlight",
+      "id": "rotation",
+      "title": "In Rotation",
+      "sub": "In partnership with G6 AGENCY & World Mafia Media",
+      "items": {
+        "_comment": "CMS homepage placement: In Rotation carousel.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "rotation",
+          "limit": 5
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "the-heart-and-static-of-a-scene-rebuilding-itself-from-nothing",
+            "image": {
+              "src": "assets/images/bettergeneration.webp",
+              "alt": "Joshey.s for adidas x Andu.C x The Better Generation GrassRoots Predator Sala",
+              "focal": "50% 50%"
+            }
+          },
+          {
+            "articleId": "inside-an-all-night-listening-party-in-a-building-that-shouldn-t"
+          },
+          {
+            "articleId": "a-short-history-of-the-sound-everyone-stole-and-no-one-credits",
+            "image": {
+              "src": "assets/images/rollingloud.webp",
+              "alt": "Pelle Pelle x Rolling Loud x Complex Shop - Limited Tour Collectors Series.",
+              "focal": "50% 50%"
+            }
+          },
+          {
+            "articleId": "eight-people-on-the-record-that-rearranged-their-lives"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cover-carousel",
+      "id": "issues",
+      "title": "Issue 1 - (Coming Soon)",
+      "covers": [
+        {
+          "title": "",
+          "image": {
+            "src": "assets/images/archve(1)(1).webp",
+            "alt": "ARCHVE issue six cover",
+            "focal": "50% 50%"
+          },
+          "href": "article.html?id=issue-six-we-built-it-ourselves-then-watched-them-sell-it-back",
+          "id": "issue-six-we-built-it-ourselves-then-watched-them-sell-it-back"
+        },
+        {
+          "title": "",
+          "image": {
+            "src": "assets/images/ARCHVE(2).webp",
+            "alt": "ARCHVE issue five cover",
+            "focal": "50% 50%"
+          },
+          "href": "article.html?id=issue-five-the-bodies-edition-skin-labour-and-the-machine",
+          "id": "issue-five-the-bodies-edition-skin-labour-and-the-machine"
+        },
+        {
+          "title": "",
+          "image": {
+            "src": "assets/images/archve(4).webp",
+            "alt": "ARCHVE issue four cover",
+            "focal": "50% 50%"
+          },
+          "href": "article.html?id=issue-four-noise-on-the-music-they-warned-you-about",
+          "id": "issue-four-noise-on-the-music-they-warned-you-about"
+        },
+        {
+          "title": "",
+          "image": {
+            "src": "assets/images/archve(5).webp",
+            "alt": "ARCHVE issue three cover",
+            "focal": "50% 50%"
+          },
+          "href": "article.html?id=issue-three-the-provincial-avant-garde-and-the-art-of-leaving",
+          "id": "issue-three-the-provincial-avant-garde-and-the-art-of-leaving"
+        },
+        {
+          "title": "",
+          "image": {
+            "src": "assets/images/ARCHVE(9).webp",
+            "alt": "ARCHVE issue two cover",
+            "focal": "50% 50%"
+          },
+          "href": "article.html?id=issue-two-confessions-from-the-group-chat",
+          "id": "issue-two-confessions-from-the-group-chat"
+        },
+        {
+          "title": "",
+          "image": {
+            "src": "assets/images/ARCHVE(10).webp",
+            "alt": "ARCHVE issue one cover",
+            "focal": "50% 50%"
+          },
+          "href": "article.html?id=issue-one-a-rare-collection-of-human-visual-experiences",
+          "id": "issue-one-a-rare-collection-of-human-visual-experiences"
+        }
+      ],
+      "cta": {
+        "label": "Subscribe",
+        "href": "#tally-open=kdrEPd&tally-layout=modal&tally-overlay=1&tally-auto-close=0"
+      }
+    },
+    {
+      "type": "category-grid",
+      "id": "music",
+      "title": "Music",
+      "dividerBefore": true,
+      "cards": {
+        "_comment": "CMS homepage placement: music. Curated references are preserved and CMS-selected articles lead.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "music",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "the-last-transmission-inside-the-tape-a-scene-tried-to-bury"
+          },
+          {
+            "articleId": "what-underground-even-means-when-the-algorithm-is-listening"
+          },
+          {
+            "articleId": "a-rare-conversation-with-the-producer-who-vanished-for-a-decade"
+          }
+        ]
+      }
+    },
+    {
+      "type": "category-grid",
+      "id": "art",
+      "title": "Art",
+      "dividerBefore": true,
+      "cards": {
+        "_comment": "CMS homepage placement: art. Curated references are preserved and CMS-selected articles lead.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "art",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "the-painters-treating-the-group-chat-as-a-life-drawing-class"
+          },
+          {
+            "articleId": "charged-photographs-from-a-movement-building-far-from-the-capita"
+          },
+          {
+            "articleId": "remembering-the-zine-that-made-a-scene-then-set-itself-on-fire"
+          }
+        ]
+      }
+    },
+    {
+      "type": "category-grid",
+      "id": "fashion",
+      "title": "Fashion",
+      "dividerBefore": true,
+      "cards": {
+        "_comment": "CMS homepage placement: fashion. Curated references are preserved and CMS-selected articles lead.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "fashion",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "the-gen-z-tailors-turning-deadstock-into-a-manifesto"
+          },
+          {
+            "articleId": "meet-the-collective-dressing-a-city-that-refuses-to-behave"
+          },
+          {
+            "articleId": "how-one-runway-quietly-smuggled-the-archive-back-into-fashion"
+          }
+        ]
+      }
+    },
+    {
+      "type": "category-grid",
+      "id": "culture",
+      "title": "Culture",
+      "dividerBefore": true,
+      "cards": {
+        "_comment": "CMS homepage placement: culture. Curated references are preserved and CMS-selected articles lead.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "culture",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "are-we-being-demonised-for-feeling-anything-at-all-online"
+          },
+          {
+            "articleId": "a-dispatch-on-what-to-make-read-and-refuse-this-month"
+          },
+          {
+            "articleId": "how-boredom-became-the-last-honest-emotion-left"
+          }
+        ]
+      }
+    },
+    {
+      "type": "cta-band",
+      "id": "collective",
+      "title": "Submit something for a chance to be featured on ARCHVE",
+      "body": "Submit your work for a chance to be featured in ARCHVE Magazine and on our website.",
+      "actions": [
+        {
+          "label": "Submit / Pitch",
+          "href": "#tally-open=eqoRyO&tally-align-left=1&tally-overlay=1&tally-emoji-animation=none&tally-auto-close=0",
+          "style": "fill"
+        }
+      ]
+    },
+    {
+      "type": "category-grid",
+      "id": "film",
+      "title": "Film",
+      "dividerBefore": true,
+      "cards": {
+        "_comment": "CMS homepage placement: film. Curated references are preserved and CMS-selected articles lead.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "film",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "a-director-on-motherhood-desire-and-the-film-that-nearly-broke-h"
+          },
+          {
+            "articleId": "there-s-flesh-everywhere-inside-a-scene-cinema-keeps-censoring"
+          },
+          {
+            "articleId": "eleven-films-we-re-travelling-across-the-world-to-see-this-year"
+          }
+        ]
+      }
+    },
+    {
+      "type": "category-grid",
+      "id": "photography",
+      "title": "Photography",
+      "dividerBefore": true,
+      "cards": {
+        "_comment": "CMS homepage placement: photography. Curated references are preserved and CMS-selected articles lead.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "photography",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "young-outsiders-find-a-home-behind-the-lens-of-a-football-club"
+          },
+          {
+            "articleId": "the-experimental-scene-developing-in-the-north-shot-on-expired-f"
+          },
+          {
+            "articleId": "remembering-the-magazine-that-made-a-splash-then-disappeared"
+          }
+        ]
+      }
+    },
+    {
+      "type": "featured-grid",
+      "id": "trending",
+      "title": "Trending",
+      "featured": {
+        "articleId": "ten-accounts-fusing-art-sex-and-static-and-slipping-past-the-cen"
+      },
+      "cards": {
+        "_comment": "CMS homepage placement: Trending cards only. The curated featured story remains manually selected.",
+        "auto": {
+          "placement": "home",
+          "homeSection": "trending",
+          "limit": 4
+        },
+        "autoFirst": true,
+        "curated": [
+          {
+            "articleId": "is-the-grid-dead-how-a-generation-is-rebuilding-the-feed"
+          },
+          {
+            "articleId": "the-bag-that-everyone-claims-to-hate-and-nobody-can-stop-buying"
+          },
+          {
+            "articleId": "two-writers-on-the-small-terror-of-putting-yourself-out-there"
+          },
+          {
+            "articleId": "meet-the-young-people-building-a-scene-with-no-venue-and-no-mone"
+          }
+        ]
+      }
+    },
+    {
+      "type": "newsletter",
+      "id": "newsletter-bottom"
+    }
+  ],
+  "hydrate": true
+}
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

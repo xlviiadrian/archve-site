@@ -1,0 +1,13 @@
+{
+  "name": "archve-magazine",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "cms": "node cms/server.mjs",
+    "publication:migrate": "node scripts/publication/migrate-legacy.mjs",
+    "publication:validate": "node scripts/publication/validate.mjs",
+    "publication:build": "node scripts/publication/build-publication.mjs",
+    "build": "node scripts/publication/build-publication.mjs && node build.mjs"
+  },
+  "displayName": "ARCHVE Magazine"
+}

@@ -669,6 +669,9 @@ html{scroll-padding-top:120px}
   letter-spacing:-.02em;color:#fff;margin-top:.7rem}
 .article-standfirst{font-size:clamp(1.02rem,.95rem + .5vw,1.25rem);line-height:1.5;color:var(--text-dim);
   margin:1rem auto 0;max-width:60ch}
+.article-header-link{margin:1rem auto 0;font-size:var(--fs-meta);letter-spacing:.04em}
+.article-header-link a{color:#fff;text-decoration:underline;text-underline-offset:.25em}
+.article-header-link a:hover{color:var(--text-dim)}
 
 .article-hero{margin:clamp(24px,3vw,44px) 0 0}
 .article-hero .media--wide{aspect-ratio:16/9}
@@ -710,6 +713,7 @@ html{scroll-padding-top:120px}
 .article-link a{display:inline-flex;align-items:center;border:1px solid var(--line);border-radius:var(--radius-pill);
   padding:.55em 1em;color:#fff;font-size:var(--fs-meta);font-weight:700;letter-spacing:.05em;text-transform:uppercase}
 .article-link a:hover{background:#fff;color:#000;border-color:#fff}
+.article-hero-cta{margin:1.25rem 0 0;text-align:center}
 
 .body-gallery-wrap{margin:clamp(24px,4vw,48px) 0}
 .body-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(5px,.8vw,10px)}
@@ -1248,4 +1252,3 @@ body.lightbox-open{overflow:hidden}
   .g6-page .g6-card-line{display:none}
   .newsletter .container{width:calc(100% - 20px);padding:28px 16px}
 }
-

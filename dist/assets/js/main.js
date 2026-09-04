@@ -1190,6 +1190,12 @@
         return href ? '<a href="' + attr(href) + '">' + esc(t) + "</a>" : '<span class="topic-label">' + esc(t) + "</span>";
       }).join("") +
       "</nav>";
+    var headerLink = story.headerLink && story.headerLink.href
+      ? '<p class="article-header-link"><a href="' + attr(story.headerLink.href) + '" target="_blank" rel="noopener noreferrer">' + esc(story.headerLink.label || story.headerLink.href) + '</a></p>'
+      : "";
+    var heroCta = story.heroCta && story.heroCta.href
+      ? '<p class="article-link article-hero-cta"><a href="' + attr(story.heroCta.href) + '" target="_blank" rel="noopener noreferrer">' + esc(story.heroCta.label || "View link") + '</a></p>'
+      : "";
 
     mount.innerHTML =
       '<div class="article-promo"><a href="' + attr(TALLY.newsletter.href) + '" data-tally-open="' + TALLY.newsletter.id + '">Sign Up For First Access To The Magazine &amp; Updates</a></div>' +
@@ -1198,9 +1204,10 @@
       '<header class="article-head">' + crumb +
       "<h1>" + esc(story.title) + "</h1>" +
       (story.dek ? '<p class="article-standfirst">' + esc(story.dek) + "</p>" : "") +
+      headerLink +
       "</header></div>" +
       '<div class="container container--wide"><figure class="article-hero">' +
-      mediaHTML(story.image, "media--wide", true) + cap + "</figure></div>" +
+      mediaHTML(story.image, "media--wide", true) + cap + "</figure>" + heroCta + "</div>" +
       '<div class="container container--narrow"><div class="article-body">' + articleBody(story) + "</div>" +
       topicsHTML +
       "</div></article>";

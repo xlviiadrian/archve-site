@@ -8,6 +8,14 @@
       "status": "published",
       "title": "Help Fund Our First Issue: Limited Edition Icon Keychain Sets",
       "dek": "The limited-edition ICON KEYCHAIN SET is more than our first product. It is a way to help fund Issue One—and a physical reminder of who believed in ARCHVE from the beginning.",
+      "headerLink": {
+        "label": "www.shop.archvemag.com",
+        "href": "https://www.shop.archvemag.com"
+      },
+      "heroCta": {
+        "label": "SHOP NOW",
+        "href": "https://www.shop.archvemag.com"
+      },
       "category": "Latest",
       "categories": [
         "Latest"

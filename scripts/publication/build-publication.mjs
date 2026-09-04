@@ -196,6 +196,12 @@ function staticPage(article) {
     : `<span class="topic-label">${escapeHtml(t)}</span>`).join('');
   const authorHtml = article.authorUrl ? `<a href="${escapeHtml(article.authorUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(author)}</a>` : escapeHtml(author);
   const format = article.format ? ` <span class="crumb-sep">/</span> <span>${escapeHtml(article.format)}</span>` : '';
+  const headerLink = article.headerLink?.href
+    ? `<p class="article-header-link"><a href="${escapeHtml(article.headerLink.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.headerLink.label || article.headerLink.href)}</a></p>`
+    : '';
+  const heroCta = article.heroCta?.href
+    ? `<p class="article-link article-hero-cta"><a href="${escapeHtml(article.heroCta.href)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.heroCta.label || 'View link')}</a></p>`
+    : '';
 
   return `<!DOCTYPE html>
 <html lang="en" class="no-js">
@@ -240,11 +246,11 @@ function staticPage(article) {
         <header class="article-head">
           <p class="article-crumb"><a href="${escapeHtml(categoryHref(category))}">${escapeHtml(category)}</a>${format}</p>
           <h1>${escapeHtml(article.title)}</h1>
-          ${article.dek ? `<p class="article-standfirst">${escapeHtml(article.dek)}</p>` : ''}
+          ${article.dek ? `<p class="article-standfirst">${escapeHtml(article.dek)}</p>` : ''}${headerLink}
         </header>
       </div>
       <div class="container container--wide">
-        <figure class="article-hero">${mediaHtml(hero)}<figcaption class="article-cap"><span class="cap-date">${escapeHtml(article.date || '')}</span><span class="cap-by"><strong>Text</strong> ${authorHtml}</span></figcaption></figure>
+        <figure class="article-hero">${mediaHtml(hero)}<figcaption class="article-cap"><span class="cap-date">${escapeHtml(article.date || '')}</span><span class="cap-by"><strong>Text</strong> ${authorHtml}</span></figcaption></figure>${heroCta}
       </div>
       <div class="container container--narrow">
         <div class="article-body">${renderBody(article.body || [])}</div>

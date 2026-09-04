@@ -602,6 +602,15 @@
       "category": "Film & TV",
       "url": "article/?id=are-one-take-phone-films-the-future-of-the-form",
       "contentStatus": "needs-copy"
+    },
+    {
+      "id": "who-the-freak-is-blue-navy",
+      "slug": "who-the-freak-is-blue-navy",
+      "title": "Who the freak is Blue Navy?",
+      "status": "published",
+      "category": "Music",
+      "url": "articles/who-the-freak-is-blue-navy/",
+      "contentStatus": "complete"
     }
   ]
 }

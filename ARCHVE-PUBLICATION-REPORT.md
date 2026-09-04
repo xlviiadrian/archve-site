@@ -1,7 +1,7 @@
 # ARCHVE Publication Build Report
 
-- Central article records: **67**
-- Permanent static article pages generated: **33**
+- Central article records: **68**
+- Permanent static article pages generated: **34**
 - Legacy article cards still needing real body copy: **34**
 - Validation findings: **34**
 

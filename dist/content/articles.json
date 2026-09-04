@@ -7916,6 +7916,222 @@
           }
         ]
       }
+    },
+    "who-the-freak-is-blue-navy": {
+      "id": "who-the-freak-is-blue-navy",
+      "slug": "who-the-freak-is-blue-navy",
+      "status": "published",
+      "title": "Who the freak is Blue Navy?",
+      "dek": "The San Marcos band on friendship, screams, synths, tweemo, their mysterious dog and a plan to take over the planet—starting with El Paso and the moon.",
+      "category": "Music",
+      "categories": [
+        "Music"
+      ],
+      "tags": [
+        "Blue Navy",
+        "Isaac Nease",
+        "San Marcos",
+        "Texas music",
+        "Screamo",
+        "Midwest emo",
+        "Electronic music"
+      ],
+      "format": "Interview",
+      "author": "ARCHVE Magazine",
+      "authorUrl": "",
+      "date": "September 3, 2026",
+      "updatedDate": "",
+      "eyebrow": {
+        "category": "Music"
+      },
+      "thumbnailImage": {
+        "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-cover.webp",
+        "alt": "Blue Navy performing in the Who the freak is Blue Navy interview artwork",
+        "focal": "50% 57%"
+      },
+      "heroImage": {
+        "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-cover.webp",
+        "alt": "Who the freak is Blue Navy interview cover featuring the band performing",
+        "focal": "50% 50%",
+        "fit": "contain",
+        "w": 1350,
+        "h": 1800
+      },
+      "image": {
+        "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-cover.webp",
+        "alt": "Who the freak is Blue Navy interview cover featuring the band performing",
+        "focal": "50% 50%",
+        "fit": "contain",
+        "w": 1350,
+        "h": 1800
+      },
+      "topics": [
+        "Blue Navy",
+        "Isaac Nease",
+        "San Marcos",
+        "Screamo",
+        "Midwest emo"
+      ],
+      "placement": {
+        "home": true,
+        "latest": false,
+        "featured": false,
+        "homeSection": "music",
+        "pages": [
+          "/",
+          "music/"
+        ]
+      },
+      "seo": {
+        "title": "Who the freak is Blue Navy?",
+        "description": "Meet Blue Navy: the San Marcos band mixing friendship, screams, synths and tweemo while plotting to take over El Paso, the moon and beyond.",
+        "primaryKeyword": "Blue Navy band",
+        "canonical": "https://archvemag.com/articles/who-the-freak-is-blue-navy/",
+        "ogTitle": "Who the freak is Blue Navy?",
+        "ogDescription": "The San Marcos band on friendship, screams, synths, tweemo, their mysterious dog and plans for planetary domination.",
+        "ogImage": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-cover.webp"
+      },
+      "body": [
+        "Blue Navy sounds like what happens when friendship gets plugged into a synthesizer and pushed until it screams.",
+        "Built around Isaac Nease, Banks and Brady—with Mal appearing “sometimes”—the San Marcos group treats a band less like a fixed institution than a shared dare. Their music folds emo confession, screamo rupture and electronic brightness into something they jokingly call “tweemo.” It is loud, playful and knowingly strange: music for scraped knees, bright clothes and anyone who understands why a tiny dog can become a spiritual symbol.",
+        "ARCHVE caught up with Blue Navy to talk about the friendships behind the noise, the artists who shaped their sound and the extremely serious business of taking over the moon.",
+        {
+          "credit": "INTERVIEW BY ARCHVE MAGAZINE · PHOTOGRAPHY @YOUREYESANDEARSS"
+        },
+        {
+          "heading": "What—and who—is Blue Navy?"
+        },
+        "**Isaac Nease:** The power of friendship and music—and Isaac and Banks and Brady. Mal too, sometimes. We like to scream and play synths.",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/what-is-blue-navy.webp",
+            "alt": "Blue Navy artwork describing the band as friendship, screaming and playful synths",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "Where did you all meet?"
+        },
+        "**Isaac Nease:** Banks would always throw shows at her house, and we would go. She was in a really cool band at the time, and we liked her screams. Brady knew how to play drums, and I was producing electronic beats. We made “Talk” with Banks and ended up adding her to the roster.",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/where-blue-navy-met.webp",
+            "alt": "Blue Navy performing at a house show while explaining how the members met",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "Do all of you have similar music taste? What are some of your individual inspirations?"
+        },
+        "**Isaac Nease:** Banks is into more emo stuff. She listens to a lot of Brave Little Abacus, but we all started listening to Songs by Jonas and Dallas Cowboys, which kind of blended our tastes. Obviously, we take some inspiration from MGMT and fun., but we’re really into the new stuff too.",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-influences.webp",
+            "alt": "Banks, Isaac Nease and Brady of Blue Navy performing onstage",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "What is the ultimate goal with Blue Navy? Where do you hope to take it?"
+        },
+        "**Isaac Nease:** Take over the planet—including the moon and El Paso, Texas—and, most importantly, make friends along the way. We basically want to have a secret show at Madison Square Garden later this month.",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-goal.webp",
+            "alt": "Blue Navy moon-landing artwork about the band’s plans for planetary domination",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "What is your musical and aesthetic identity?"
+        },
+        "**Isaac Nease:** I don’t know—tweemo? Brady says it’s music for your base chakra. We just like to wear bright colors.",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-identity.webp",
+            "alt": "Blue Navy guitarist in vivid blue artwork about the band’s tweemo identity",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "What kind of people do you think would resonate with your music?"
+        },
+        "**Isaac Nease:** People who scrape their knees often and are kind of gay.",
+        {
+          "heading": "What inspired the little dog that appears in all of your graphics?"
+        },
+        "**Isaac Nease:** The dog is important because it’s just our thing. The dog is inside all of us!",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-dog.webp",
+            "alt": "Blue Navy collage explaining the small dog that appears throughout the band’s graphics",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "Are there other people you want to work with—or add to the band?"
+        },
+        "**Isaac Nease:** Probably Songs by Jonas or Wemby from the Spurs. We’re leaning more into screamo, so Banks was the first step.",
+        {
+          "image": {
+            "src": "assets/images/articles/who-the-freak-is-blue-navy/blue-navy-collaborators.webp",
+            "alt": "Blue Navy performing while discussing dream collaborators and leaning further into screamo",
+            "focal": "50% 50%"
+          }
+        },
+        {
+          "heading": "What is your message to the world?"
+        },
+        {
+          "quote": "Blue Navy is collectively above average.",
+          "by": "Isaac Nease"
+        },
+        "There is a coherent philosophy hiding beneath all of that chaos: keep the circle open, let the music stay strange and never sand away the joke just to look serious. Blue Navy may call themselves “collectively above average.” For now, that feels modest.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "Support independent publishing"
+        },
+        "ARCHVE is building Issue One with the help of readers who believe music, art and real human stories deserve a physical life. The limited-edition ARCHVE Icon Keychain Set helps fund the first issue.",
+        {
+          "gallery": [
+            {
+              "src": "assets/images/articles/who-the-freak-is-blue-navy/archve-keychain-hand.webp",
+              "alt": "Hand holding an ARCHVE Magazine Icon Keychain"
+            },
+            {
+              "src": "assets/images/articles/who-the-freak-is-blue-navy/archve-keychain-set.webp",
+              "alt": "ARCHVE Magazine Icon Keychain Set and packaging"
+            }
+          ],
+          "columns": 2,
+          "caption": "ARCHVE Magazine Icon Keychain Set."
+        },
+        {
+          "link": {
+            "label": "Shop the keychain set",
+            "href": "https://shop.archvemag.com"
+          }
+        },
+        {
+          "credit": "Art & Records Cult: Humanity, Vision & Expression."
+        }
+      ],
+      "migration": {
+        "contentStatus": "complete",
+        "legacyHref": "article/?id=who-the-freak-is-blue-navy",
+        "placements": [
+          {
+            "page": "/",
+            "path": "sections.music"
+          },
+          {
+            "page": "music/",
+            "path": "latest"
+          }
+        ]
+      }
     }
   }
 }

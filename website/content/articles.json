@@ -8110,6 +8110,144 @@
           }
         ]
       }
+    },
+    "who-is-facetime-frostie": {
+      "id": "who-is-facetime-frostie",
+      "slug": "who-is-facetime-frostie",
+      "status": "published",
+      "title": "Who is Facetime Frostie?",
+      "dek": "With “#TEETH” out now and “#LOSING” approaching, the Houston artist is entering a new era built around more than music.",
+      "category": "Music",
+      "categories": [
+        "Music"
+      ],
+      "tags": [
+        "Facetime Frostie",
+        "Savoir Frostie",
+        "ARTBOY",
+        "#TEETH",
+        "#LOSING",
+        "NicksIllusion",
+        "NOT",
+        "Houston music"
+      ],
+      "format": "Feature",
+      "author": "Adrian Medina",
+      "authorUrl": "",
+      "date": "September 5, 2026",
+      "updatedDate": "",
+      "eyebrow": {
+        "category": "Music"
+      },
+      "thumbnailImage": {
+        "src": "assets/images/articles/who-is-facetime-frostie/facetimefrostie.jpg",
+        "alt": "Facetime Frostie smiling and holding his hands toward the camera in a repeating black-and-white portrait",
+        "focal": "50% 50%",
+        "w": 2048,
+        "h": 1152
+      },
+      "heroImage": {
+        "src": "assets/images/articles/who-is-facetime-frostie/facetimefrostie.jpg",
+        "alt": "Facetime Frostie smiling and holding his hands toward the camera in a repeating black-and-white portrait",
+        "focal": "50% 50%",
+        "w": 2048,
+        "h": 1152
+      },
+      "image": {
+        "src": "assets/images/articles/who-is-facetime-frostie/facetimefrostie.jpg",
+        "alt": "Facetime Frostie smiling and holding his hands toward the camera in a repeating black-and-white portrait",
+        "focal": "50% 50%",
+        "w": 2048,
+        "h": 1152
+      },
+      "topics": [
+        "Facetime Frostie",
+        "#TEETH",
+        "#LOSING",
+        "NicksIllusion",
+        "Houston music"
+      ],
+      "placement": {
+        "home": true,
+        "latest": false,
+        "featured": false,
+        "homeSection": "music",
+        "pages": [
+          "index.html",
+          "music.html"
+        ]
+      },
+      "seo": {
+        "title": "Who is Facetime Frostie? #TEETH, #LOSING and Houston's next creative era",
+        "description": "Meet Houston artist Facetime Frostie as he releases #TEETH, prepares #LOSING and builds a new creative world alongside NOT, also known as NicksIllusion.",
+        "primaryKeyword": "Facetime Frostie",
+        "canonical": "https://archvemag.com/articles/who-is-facetime-frostie/",
+        "ogTitle": "Who is Facetime Frostie?",
+        "ogDescription": "With #TEETH out now and #LOSING approaching, Facetime Frostie is entering a new era built around more than music.",
+        "ogImage": "assets/images/articles/who-is-facetime-frostie/facetimefrostie.jpg"
+      },
+      "body": [
+        "Facetime Frostie has several names.",
+        "Frostie. ARTBOY. Savoir Frostie. Facetime Frostie.",
+        "Each name reveals another part of the Houston artist’s identity, but none of them completely defines him. He is a musician, visual artist, DJ and visionary working across every medium necessary to construct his own world.",
+        "Calling Frostie a rapper would be too restrictive. Calling him only a musician would leave too much out.",
+        "He belongs to a generation of independent artists who understand that the music is only one piece of the experience. The sound matters, but so does the image. The clothes matter. The artwork matters. The environments matter. Every photograph, performance and release becomes another clue pointing toward the larger idea.",
+        "Facetime Frostie is not simply releasing songs. He is developing a character, a visual language and a universe that can continue changing with him.",
+        "His catalog can be traced through projects including *MINT CONDITION* and the five-track *FACETIME FROSTIE* EP. Songs like “#FULLY,” “#FOMO,” “#MAKEITSEXY,” “#RIPSHAWS” and “#MARTINEROSE” helped establish an artist interested in creating more than disconnected singles.",
+        "Now, Frostie is entering his next chapter with “#TEETH.”",
+        {
+          "heading": "“#TEETH” IS OUT NOW"
+        },
+        {
+          "video": {
+            "url": "https://www.youtube.com/watch?v=FOy039M9idU",
+            "provider": "youtube"
+          }
+        },
+        "“#TEETH” feels like an introduction to the current version of Facetime Frostie.",
+        "The title is sharp, physical and slightly uncomfortable. Teeth can represent beauty, aggression, hunger, insecurity or survival. We show them when we smile, but we also expose them when we feel threatened. That tension makes the name feel appropriate for an artist whose work refuses to fit neatly into a single emotion or category.",
+        "The release is not presented as a song floating by itself. It arrives with a larger identity surrounding it, using imagery, styling and visual direction to bring listeners deeper into Frostie’s world.",
+        "There is already an endless amount of music available at every moment. Releasing another song is easy. Making people feel like they have entered a new environment is harder. Frostie appears interested in the second option.",
+        "“#TEETH” marks a shift from releasing music to constructing an era. The track gives the audience a new entry point into his work, but it also leaves enough unanswered to create anticipation for whatever follows.",
+        "And something is already following.",
+        {
+          "heading": "“#LOSING” IS COMING SOON"
+        },
+        "Frostie’s next release, “#LOSING,” is currently on the way.",
+        "Where “#TEETH” begins the chapter, “#LOSING” could reveal what this era is actually becoming. Even before hearing the track, its title creates a natural tension with its predecessor.",
+        "“#TEETH” feels physical. “#LOSING” feels emotional. One suggests something visible. The other suggests something disappearing.",
+        "Together, the titles begin to form a story about pressure, identity, desire and the fear of watching something slip away. Whether that story becomes literal or remains abstract, the connection makes “#LOSING” feel like more than another release on a schedule.",
+        "It feels like the next piece of a developing world.",
+        "For Frostie, this is an important moment. “#TEETH” is available now, but the arrival of “#LOSING” will show how far he intends to push this new direction.",
+        "The rollout is moving. The identity is becoming clearer. Facetime Frostie is giving Houston a new version of himself, one release at a time.",
+        {
+          "heading": "WHO IS NOT?"
+        },
+        "The visual world surrounding “#TEETH” is connected to NOT, the creative identity of Nicolas Balderrama, also known as NicksIllusion.",
+        "NOT is a Houston director, editor, cinematographer, videographer and DJ whose work moves through music, nightlife and underground culture. His involvement with Frostie goes beyond simply taking a photograph. The cover image created by NOT helps establish how this chapter is supposed to feel before the audience even presses play.",
+        "Like Frostie, NOT resists being contained by one title. His work includes music videos, event documentation, editing, live visuals and DJ sets. He has also worked as a creative director and videographer with Houston event platform AMPED, placing him inside the same spaces he documents.",
+        "NOT is not observing Houston’s underground from the outside. He is participating in it, helping organize its environments, shaping its imagery and preserving evidence of what is happening while it is still happening.",
+        "What he is building is larger than a traditional production portfolio. NOT is developing a creative identity that can exist behind the camera, inside the edit, on a lineup or throughout an entire event. His work is helping create infrastructure around Houston’s emerging culture, giving artists a visual language and giving temporary moments a life beyond the night when they happened.",
+        "The collaboration between Frostie and NOT makes sense because both artists understand the same thing: music does not become culture through sound alone. It becomes culture when a song develops a face, a feeling and a world people want to enter.",
+        "Facetime Frostie is creating that world through music. NOT is helping us see it.",
+        {
+          "credit": "“#TEETH” is out now. “#LOSING” is coming soon. Find Facetime Frostie at @facetimefrostie and @a.rtboy. Find NOT at @nicksillusion."
+        }
+      ],
+      "migration": {
+        "contentStatus": "complete",
+        "legacyHref": "article.html?id=who-is-facetime-frostie",
+        "placements": [
+          {
+            "page": "index.html",
+            "path": "sections.music"
+          },
+          {
+            "page": "music.html",
+            "path": "latest"
+          }
+        ]
+      }
     }
   }
 }

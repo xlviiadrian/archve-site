@@ -8596,18 +8596,18 @@
         },
         "**NOFLAW:** [\"Mr.wayne\"](https://www.youtube.com/watch?v=iROOn6kMqyg&list=RDiROOn6kMqyg&start_radio=1) is my favorite song. I made it on a lot of molly, and it was all a freestyle.",
         {
-          "video": {
-            "url": "https://www.youtube.com/watch?v=iROOn6kMqyg&list=RDiROOn6kMqyg&start_radio=1",
-            "provider": "youtube"
-          },
-          "caption": "NOFLAW — \"Mr.wayne\""
-        },
-        {
           "image": {
             "src": "assets/images/articles/inside-the-mind-of-noflaw/mr-wayne.webp",
             "alt": "NOFLAW selects Mr.wayne as the song ARCHVE should highlight"
           },
           "href": "https://www.youtube.com/watch?v=iROOn6kMqyg&list=RDiROOn6kMqyg&start_radio=1"
+        },
+        {
+          "video": {
+            "url": "https://www.youtube.com/watch?v=iROOn6kMqyg&list=RDiROOn6kMqyg&start_radio=1",
+            "provider": "youtube"
+          },
+          "caption": "NOFLAW — \"Mr.wayne\""
         },
         {
           "heading": "NOFLAW JEWELRY FEATURE"

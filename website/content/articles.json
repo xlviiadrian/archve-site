@@ -8413,6 +8413,251 @@
           }
         ]
       }
+    },
+    "inside-the-mind-of-noflaw": {
+      "id": "inside-the-mind-of-noflaw",
+      "slug": "inside-the-mind-of-noflaw",
+      "status": "published",
+      "title": "INSIDE THE MIND OF: \"NOFLAW\"",
+      "dek": "The Houston artist known as Slayer opens up about isolation, Batman, building BRUCE WAYNE by himself and making music for the people who think like him.",
+      "category": "Music",
+      "categories": [
+        "Music"
+      ],
+      "tags": [
+        "NOFLAW",
+        "Slayer",
+        "Houston music",
+        "Underground rap",
+        "BRUCE WAYNE",
+        "DB4BW",
+        "Mr.wayne",
+        "FL Studio"
+      ],
+      "format": "Interview",
+      "author": "ARCHVE Magazine",
+      "authorUrl": "",
+      "date": "September 9, 2026",
+      "updatedDate": "",
+      "eyebrow": {
+        "category": "Music"
+      },
+      "thumbnailImage": {
+        "src": "assets/images/articles/inside-the-mind-of-noflaw/noflawmodulehero.jpg",
+        "alt": "NOFLAW wearing a black hood against a deep red background",
+        "focal": "50% 45%",
+        "w": 2048,
+        "h": 1167
+      },
+      "heroImage": {
+        "src": "assets/images/articles/inside-the-mind-of-noflaw/noflawmodulehero.jpg",
+        "alt": "NOFLAW wearing a black hood against a deep red background",
+        "focal": "50% 45%",
+        "w": 2048,
+        "h": 1167
+      },
+      "image": {
+        "src": "assets/images/articles/inside-the-mind-of-noflaw/noflawmodulehero.jpg",
+        "alt": "NOFLAW wearing a black hood against a deep red background",
+        "focal": "50% 45%",
+        "w": 2048,
+        "h": 1167
+      },
+      "topics": [
+        "NOFLAW",
+        "Houston music",
+        "Underground rap",
+        "BRUCE WAYNE",
+        "Mr.wayne"
+      ],
+      "placement": {
+        "home": true,
+        "latest": false,
+        "featured": false,
+        "homeSection": "music",
+        "pages": [
+          "index.html",
+          "music.html"
+        ]
+      },
+      "seo": {
+        "title": "Inside the Mind of NOFLAW",
+        "description": "Meet NOFLAW, the Houston underground artist known as Slayer, as he talks BRUCE WAYNE, DB4BW, isolation, influences and creating music alone.",
+        "primaryKeyword": "NOFLAW Houston artist",
+        "canonical": "https://archvemag.com/articles/inside-the-mind-of-noflaw/",
+        "ogTitle": "INSIDE THE MIND OF: \"NOFLAW\"",
+        "ogDescription": "NOFLAW talks Batman, BRUCE WAYNE, DB4BW, isolation and why the microphone is the one thing always listening.",
+        "ogImage": "assets/images/articles/inside-the-mind-of-noflaw/noflawmodulehero.jpg"
+      },
+      "body": [
+        "NOFLAW is an underground artist from Houston, Texas.",
+        "Also known as \"Slayer,\" NOFLAW is slowly building a world through music for the people who think like him.",
+        "NOFLAW is recording and mixing entire projects by himself while learning FL Studio, so he is taking his time with the work.",
+        "Right now, he is locked in on *BRUCE WAYNE*, the follow-up to *DB4BW*. If everything lands correctly, it will arrive on his birthday: Halloween.",
+        "Today, we dive into the mind of NOFLAW, an artist whose music feels less like a performance and more like a conversation with himself.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/noflaw-editorial-cover.webp",
+            "alt": "ARCHVE Magazine Inside the Mind of NOFLAW editorial cover"
+          }
+        },
+        {
+          "fullImage": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/noflaw-portraits.avif",
+            "alt": "Three red-and-black profile portraits of NOFLAW"
+          }
+        },
+        {
+          "credit": "INTERVIEW BY ARCHVE MAGAZINE"
+        },
+        {
+          "heading": "What are your everyday essentials?"
+        },
+        "*The things you can’t live without, whether it’s jewelry, clothing, shoes, headphones, specific homies, your computer or anything else.*",
+        "**NOFLAW:** I always keep my two phones on me—one for doom scrolling, one for phone calls and networking. I’m not really that big on fashion, but I love black clothing. I swear I’m NOT EMO; I just love black. I don’t really have any friends, but I do be with Josh, my brother; Ano, who I recently dropped a collab tape with; and my homie Jaafar, who is the leader of the Taliban in Iraq. I also stay with my MacBook for FL Studio and headphones for BandLab.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/everyday-essentials.webp",
+            "alt": "NOFLAW’s everyday essentials including two phones, a MacBook, headphones and black clothing"
+          }
+        },
+        {
+          "divider": true
+        },
+        {
+          "heading": "QUICKFIRE Q&A"
+        },
+        {
+          "heading": "Who or what influences your work? Whether it’s other musicians, cartoons, movies or anything else?"
+        },
+        "**NOFLAW:** My biggest influences are Lil Uzi—the best artist of all time—Ken Carson and Batman, my GOAT.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/influences.webp",
+            "alt": "NOFLAW names Lil Uzi Vert, Ken Carson and Batman as his biggest influences"
+          }
+        },
+        {
+          "heading": "Any new releases on the way?"
+        },
+        "**NOFLAW:** I’m working on my album *BRUCE WAYNE*, the follow-up to *DB4BW*. It is fully recorded and mixed by me, so I’m taking my time to make it perfect because I’m new to FL Studio. I’m pretty far along, and it should be out on my birthday: Halloween.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/new-releases.webp",
+            "alt": "NOFLAW discusses recording and mixing BRUCE WAYNE, the follow-up to DB4BW"
+          }
+        },
+        {
+          "heading": "What kind of people do you think connect most deeply with your music, and what do you hope they take away from it?"
+        },
+        "**NOFLAW:** I really don’t know. Ummm, I make music for people like me, but I’ve come to realize I’m one of one.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/audience.webp",
+            "alt": "Pixelated portrait of NOFLAW discussing who connects with his music"
+          }
+        },
+        {
+          "heading": "What drives you to continue creating? What do you do this for? Is creating music, media and art a lifestyle or long-term plan?"
+        },
+        "**NOFLAW:** I continue to create because it’s like my version of playing the game. I don’t play the game as much as I used to, so to pass time I make music because I don’t really have nobody to talk to except for my microphone.",
+        "I’mma keep going until the niggas who tried to keep up and go against this pay me my respect.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/why-create.webp",
+            "alt": "NOFLAW explains why he continues creating music"
+          }
+        },
+        {
+          "heading": "What’s your favorite soda?"
+        },
+        "**NOFLAW:** I don’t really drink soda, but I do when I pour up… maybe pussy-flavored soda.",
+        {
+          "heading": "Tell us 10 things about yourself that most people wouldn’t know."
+        },
+        "**1.** I’m really hated in Houston because niggas are tender and get in their feelings.",
+        "**2.** I go to sleep watching conspiracy videos.",
+        "**3.** I love my vape.",
+        "**4.** I love when my girl kisses me.",
+        "**5.** I’m really Batman, but I don’t save no bitch.",
+        "**6.** I don’t smoke weed.",
+        "**7.** I listen to Rihanna.",
+        "**8.** I got sued by two broke niggas.",
+        "**9.** I’ve owned more guns than niggas who are in gangs, and I don’t gangbang. I’m a civilian.",
+        "**10.** I take pretty girls on shopping sprees on the first date.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/ten-things.webp",
+            "alt": "Ten things most people would not know about NOFLAW"
+          }
+        },
+        {
+          "heading": "What song should we highlight?"
+        },
+        "**NOFLAW:** [\"Mr.wayne\"](https://www.youtube.com/watch?v=iROOn6kMqyg&list=RDiROOn6kMqyg&start_radio=1) is my favorite song. I made it on a lot of molly, and it was all a freestyle.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/mr-wayne.webp",
+            "alt": "NOFLAW selects Mr.wayne as the song ARCHVE should highlight"
+          },
+          "href": "https://www.youtube.com/watch?v=iROOn6kMqyg&list=RDiROOn6kMqyg&start_radio=1"
+        },
+        {
+          "heading": "NOFLAW JEWELRY FEATURE"
+        },
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/jewelry-feature.webp",
+            "alt": "NOFLAW describes three favorite pieces from his jewelry collection"
+          }
+        },
+        {
+          "divider": true
+        },
+        {
+          "heading": "INSIDE THE MIND OF NOFLAW"
+        },
+        {
+          "fullImage": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/full-interview-spread.webp",
+            "alt": "Full ARCHVE Magazine Inside the Mind of NOFLAW interview spread"
+          }
+        },
+        {
+          "heading": "SUPPORT INDEPENDENT PUBLISHING"
+        },
+        "ARCHVE is building Issue One with the help of readers who believe music, art and real human stories deserve a physical life. The limited edition ARCHVE Icon Keychain Set helps fund the first issue.",
+        {
+          "image": {
+            "src": "assets/images/articles/inside-the-mind-of-noflaw/archve-keychain-ad.webp",
+            "alt": "ARCHVE Magazine Icon Keychain Set fundraiser advertisement"
+          },
+          "href": "https://shop.archvemag.com"
+        },
+        {
+          "link": {
+            "label": "Shop the ARCHVE Icon Keychain Set",
+            "href": "https://shop.archvemag.com"
+          }
+        },
+        {
+          "credit": "Art & Records Cult: Humanity, Vision & Expression."
+        }
+      ],
+      "migration": {
+        "contentStatus": "complete",
+        "legacyHref": "article.html?id=inside-the-mind-of-noflaw",
+        "placements": [
+          {
+            "page": "index.html",
+            "path": "sections.music"
+          },
+          {
+            "page": "music.html",
+            "path": "latest"
+          }
+        ]
+      }
     }
   }
 }

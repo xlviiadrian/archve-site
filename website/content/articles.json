@@ -8665,6 +8665,282 @@
           }
         ]
       }
+    },
+    "surrealiti-dreams-and-imagery": {
+      "id": "surrealiti-dreams-and-imagery",
+      "slug": "surrealiti-dreams-and-imagery",
+      "status": "published",
+      "title": "SURREALITI: DREAMS AND IMAGERY",
+      "dek": "The 21-year-old creator behind Surrealiti opens up about turning memory into jewelry, grief into a reason to create and a clothing brand into something much bigger than clothes.",
+      "headerLink": {
+        "label": "surrealiti.net",
+        "href": "https://surrealiti.net"
+      },
+      "category": "Fashion",
+      "categories": [
+        "Fashion",
+        "Art & Photography",
+        "Life & Culture"
+      ],
+      "tags": [
+        "Surrealiti",
+        "Houston fashion",
+        "Jewelry design",
+        "Streetwear",
+        "Graphic design",
+        "Independent media",
+        "Surrealism"
+      ],
+      "format": "Interview",
+      "author": "ARCHVE Magazine",
+      "authorUrl": "",
+      "date": "September 10, 2026",
+      "updatedDate": "",
+      "eyebrow": {
+        "category": "Fashion"
+      },
+      "thumbnailImage": {
+        "src": "assets/images/articles/surrealiti-dreams-and-imagery/surrealiti-thumbnail.webp",
+        "alt": "The creator behind Surrealiti in a pink jacket surrounded by purple flower icons and surreal collage imagery",
+        "focal": "50% 50%",
+        "w": 2048,
+        "h": 1081
+      },
+      "heroImage": {
+        "src": "assets/images/articles/surrealiti-dreams-and-imagery/surrealiti-thumbnail.webp",
+        "alt": "The creator behind Surrealiti in a pink jacket surrounded by purple flower icons and surreal collage imagery",
+        "focal": "50% 50%",
+        "w": 2048,
+        "h": 1081
+      },
+      "image": {
+        "src": "assets/images/articles/surrealiti-dreams-and-imagery/surrealiti-thumbnail.webp",
+        "alt": "The creator behind Surrealiti in a pink jacket surrounded by purple flower icons and surreal collage imagery",
+        "focal": "50% 50%",
+        "w": 2048,
+        "h": 1081
+      },
+      "topics": [
+        "Surrealiti",
+        "Jewelry design",
+        "Streetwear",
+        "Graphic design",
+        "Surrealism"
+      ],
+      "placement": {
+        "home": true,
+        "latest": true,
+        "featured": false,
+        "homeSection": "fashion",
+        "pages": [
+          "index.html",
+          "latest.html",
+          "fashion.html",
+          "art.html",
+          "culture.html"
+        ]
+      },
+      "seo": {
+        "title": "SURREALITI: DREAMS AND IMAGERY",
+        "description": "Meet the creator behind Surrealiti as he discusses jewelry, streetwear, graphics, grief, Houston's underground and his plans to build an independent media house.",
+        "primaryKeyword": "Surrealiti",
+        "canonical": "https://archvemag.com/articles/surrealiti-dreams-and-imagery/",
+        "ogTitle": "SURREALITI: DREAMS AND IMAGERY",
+        "ogDescription": "Inside the real and unreal world of Surrealiti: jewelry made from memory, independent clothing, underground media and a future built around staying real.",
+        "ogImage": "assets/images/articles/surrealiti-dreams-and-imagery/surrealiti-thumbnail.webp"
+      },
+      "body": [
+        "SURREALITI lives in the blur between the world as it is and the version you see when you stare at it long enough.",
+        "The 21-year-old creator behind it moves between a jewelry bench, clothing, graphics, photography, video and a growing media vision. The work changes form, but the instinct underneath it remains the same: make the strange feel honest and make the honest impossible to ignore.",
+        "Behind the flowers, double i's and the phrase *STAY REAL* is a story about learning through whatever tools were available, turning grief into something permanent and refusing to let perfection keep another idea trapped inside his head.",
+        "ARCHVE spoke with SURREALITI about the objects he carries every day, the memorial ring that forced him to learn piano theory and 3D printing at the same time, the people who shaped his eye and why he wants the brand to become a home for Houston's underground.",
+        {
+          "credit": "INTERVIEW BY ARCHVE MAGAZINE"
+        },
+        {
+          "quote": "“Our reality is surreal.”"
+        },
+        {
+          "divider": true
+        },
+        {
+          "heading": "THE THINGS THAT BECOME PART OF YOU"
+        },
+        {
+          "heading": "What are your everyday essentials?"
+        },
+        "*The things you can't live without: jewelry, clothing, shoes, headphones, specific homies, your computer or anything else.*",
+        "**SURREALITI:** My Tecovas bone-handle pocket knife is a must. It's super sharp, good quality and I use it for everything. I always have it.",
+        "My jewelry and watches have become one with my mind and body. I take all my rings and my watch off at the end of the day, but I honestly sleep with my necklace. My “fuck you” Chrome-style bracelet and diamond platinum studs stay on 24/7, except for the usual cleaning.",
+        "All my homies are essential, lol. I'd go crazy alone. As much as I enjoy peace and quiet, it isn't worth feeling the loneliness.",
+        "I try not to wear too many of the same clothes or shoes. I switch it up every day. I love computers and tech, but I wouldn't call them necessary—just a nice luxury. I can work at any station. Growing up, I never had nice computers, so I'm used to working with lag.",
+        "Oh yeah, I guess my glasses too. I'm pretty blind.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "A PIANO BUILT FROM MEMORY"
+        },
+        {
+          "heading": "What is the most challenging piece of jewelry you've made so far?"
+        },
+        "**SURREALITI:** I just sent 18 pictures and videos of the most challenging ring I've made so far. It doesn't look super crazy to me now, I guess, but God—making it was hell.",
+        "I had been doing CAD for a little more than two months and had maybe two successful custom orders under my belt—real simple stuff. Then this guy brought us an idea he had thought up and mocked up with the help of AI. It was up to me to make his dream a reality.",
+        "His mother had passed away, and one of his favorite recurring memories was of her playing piano for him and his brother. He decided to make a piano ring for himself and his brother from their mother's gold and gems. We settled on a white-gold ring with a turquoise center, accent diamonds inside a music note and, somehow, the whole thing shaped like a piano.",
+        "From there, I had to learn a bit about music—from the exact layout of piano keys to the way sheet music is written—because it had to be accurate. Otherwise, it would look like cheap junk.",
+        "After about a month of revisions and figuring out how to build a three-dimensional piano inside a ring with less than three months of experience, I began 3D-printing it in our wax-based resin. There was a lot of trial and error, partly because of my lack of experience and partly because of the complexity of the ring.",
+        "The prints took more than three hours to complete and clean up, so it took a lot of time just to see what needed to change. The ring was heavy even in wax form. With the liquid-resin printing we use for castable wax models, the piece prints upside down so the excess can drip off. That caused a lot of failed prints when the support structures weren't strong enough.",
+        "After I finally printed it successfully, the second round of revisions began. A lot of things look different in real life, especially when you're working with something so small and fine. A five-millimeter distance can look huge in CAD. In person, it's nearly microscopic.",
+        "Then we cast it and ran into more roadblocks because of the intricacy of the design. We ultimately ended up with three rings: the original two that came out well, plus a third at no charge because one attempt felt lackluster. That's why one video shows a synthetic, vibrant dark-blue opal-style cabochon while the other two show the natural blue topaz from his mother.",
+        {
+          "quote": "“People trust us to make beautiful family heirlooms and memorial pieces—not just flashy jewelry.”"
+        },
+        "This is part of why I love my job so much. People trust us to make beautiful family heirlooms and memorial pieces—not just flashy, bling-bling jewelry. Seeing the joy our unique creations bring people makes me feel fulfilled.",
+        {
+          "heading": "What other recent pieces have stayed with you?"
+        },
+        "**SURREALITI:** One project involved a $500,000, three-carat VVS natural diamond that we had to reset into a new ring after a woman inherited it from her mother. Sadly, I only have one picture.",
+        "Another one wasn't too challenging, but I really enjoyed it. A client's family dog had passed away, so he commissioned a silver bracelet charm of the dog. He originally planned to get his mother a generic dog charm, but he wanted to give her something special. He said I made it look exactly like him.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "FROM CRACKED SOFTWARE TO THE REAL THING"
+        },
+        {
+          "heading": "What first inspired you to create jewelry, clothing and graphics?"
+        },
+        "**SURREALITI — JEWELRY:** Being surrounded by it every day at work, and always liking cool, nice, expensive stuff ever since I was a kid. I always wore a cheap, random watch and eventually got into that same kind of jewelry.",
+        "**SURREALITI — CLOTHING:** @Pythia was a huge inspiration. He did a free mentorship program for students, and I had the pleasure of being involved and learning a bit about running a clothing brand. @Voncre was also an inspiration. I originally bought their Colosseum jacket-and-pants set, then ended up working for him, making content and doing promo.",
+        "I've always been into fashion, even hype streetwear. My first “designer pieces” were fake Yeezy 350s and a Louis belt. During my senior year of high school, I saw the boom of new streetwear brands blowing up on Shopify, like Hellstar, and figured I could do it too. I hyperfixated on it for a year and gave up, but I learned a lot about the logistics of running a clothing brand—from developing the website to designing the clothes. I eventually applied that knowledge to Surrealiti.net, picked it back up and pivoted.",
+        "The key inspirations for my clothes include Asspizza and Austin Babbitt, TeamSESH, Odd Future, KAWS and Be Someone.",
+        "**SURREALITI — GRAPHICS:** I've always loved digital media. I started on MS Paint as a little Gen Z kid. In middle school, I learned basic photo and video editing and landed my first paid gigs with those new skills. In high school, I started learning how to shoot my own work and became more advanced in graphic design and editing.",
+        {
+          "heading": "How old are you, when did you begin creative work and what is one of the first projects you remember?"
+        },
+        "**SURREALITI:** I'm 21, turning 22 this December. I started doing paid, professional media work around 12 years old. I landed an editing gig—with no experience—for a YouTuber with more than 50,000 subscribers, using a cracked version of Sony Vegas. It was so bad. From then on, I stuck with Adobe.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "THE WORLD BEHIND THE WORD"
+        },
+        {
+          "heading": "What does Surrealiti mean, and when did you come up with it?"
+        },
+        "**SURREALITI:** I originally came up with the name while trying to rebrand my account. I've always liked surrealism as a philosophy and an art style, and I've always loved Dalí. I was playing around and found that *surreality* is an actual word. It describes situations or things that feel real but are so illogical or unsettling that they seem impossible.",
+        "I changed the spelling because I thought *Surrealiti* was more unique. I also liked the way it looked, especially the double i.",
+        {
+          "quote": "“A state in which the real and the unreal blur—the dreamlike, the uncanny, the beautiful distortion of the everyday.”"
+        },
+        "That's what Surrealiti means to me. Our world is so obscure when you really look at it or say it out loud. Society and the way we live are all so insane, but they have become normalized. That makes life feel even more surreal. So much is simply glossed over. Our reality is surreal.",
+        "Later, I chose the slogan *STAY REAL* because, in a world of performative actions and inauthenticity, staying real is needed more than ever.",
+        {
+          "heading": "Who or what has influenced your work the most?"
+        },
+        "*Whether it's other creatives, musicians, cartoons, films, family, friends or people within your scene.*",
+        "**SURREALITI:** BONES has been an all-time favorite and a huge inspiration. His entire discography has gotten me through a lot of hard times, and I love his TeamSESH merch. I wear a ring I got from them every day. It's one of my favorites out of the many I have.",
+        "His come-up story has also motivated me and shaped how I see doing everything yourself. He never signed to a label—he made his own. He never sold himself out, and he got rich with all his friends. He also influenced my habits positively by speaking against abusing pills and promoting a healthier lifestyle: smoking weed, making art and eating better.",
+        "Mac Miller is an all-time favorite and a major inspiration too. I love his work ethic, his ethics in general, his style and his beautiful personality. Lil Peep is up there too. He and BONES heavily influenced my fashion sense and style.",
+        "Asspizza and @problem6oy are huge inspirations for my clothing-production style and the reason I love screen-printing and its look so much. Keith Haring, Slawn and Andy Warhol are a few artistic inspirations. Cole Bennett and Lyrical Lemonade are major inspirations as well. He gave me a lot of hope, and after watching an interview with him, I saw a lot of myself in him.",
+        "You inspired me a lot too. Your style is phenomenal, and your creative direction is beautiful. I feel like everyone I meet in the scene—especially fellow creators—inspires me in different ways and constantly sparks new ideas.",
+        "@Nicksillusion is a huge inspiration. I've followed him for a few years, and seeing how much he's done and how consistent he has been is very inspiring. He's also a super kind, chill dude. I'm really looking forward to working with him more.",
+        "M. Night Shyamalan and Wes Anderson are my two all-time favorite directors. I love every one of their movies. My favorites are *Fantastic Mr. Fox* and *Split*—very different movies, lol, but I love everything about both. Eventually, I'd love to have a Surrealiti film studio and make horror more surreal.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "MEDIA HOUSE FIRST"
+        },
+        {
+          "heading": "Where do you see Surrealiti in the future?"
+        },
+        "**SURREALITI:** Right now, Surrealiti is still early—building the clothing line back up, doing jewelry and metalwork and producing content. But the actual vision is bigger than a brand people buy from.",
+        "I want it to be a media house first: interviews, a magazine, a newsletter and photo and video work that documents Houston's underground culture and the people in it who usually go unrepresented—the kid with the office job during the week who comes alive at 2 a.m. on a Friday. That's the audience. That's who I'm building this for.",
+        "Eventually, I want Surrealiti to operate like a collective—think Odd Future or TeamSESH—where we're not just selling clothes to artists. We're developing them through marketing, visuals and community.",
+        {
+          "heading": "What drives you to continue creating?"
+        },
+        "**SURREALITI:** Other creators in the scene are definitely a big motivation. Seeing a fellow cameraman at a show, then seeing him post an edited recap that same night, reminds me to lock in. Finally gaining some traction on my page has also been a big motivating factor. I've always flown under the radar, so it's nice to finally start getting some recognition.",
+        "Lastly, the existential fear of being a failure or not feeling like I lived up to my full potential keeps me motivated. After seeing so much death, I think about it a lot—what I'd leave behind and how people would remember me. I want to create things worth remembering.",
+        {
+          "heading": "What do you do this for?"
+        },
+        "**SURREALITI:** It's a passion, really. I have so much love for creativity and expressing my style. A lot of what I make is for me, and it's a bonus if it's popular with other people too. That's part of why I started making more content and showcasing my life and work.",
+        {
+          "heading": "Is creating jewelry, clothing, media and art a lifestyle and a long-term plan?"
+        },
+        "**SURREALITI:** Yes. It's my trifecta of passions. No matter what, I'll always have them. My job at the jewelry shop is locked in, so if all else fails, I'll always have something to fall back on. It's also a great place to hone my skills.",
+        "Eventually, I want my own jewelry brand—something as big as Chrome Hearts if I work hard enough. Homer by Frank Ocean is another big inspiration. I saw you featured some of their work in the debrief you sent. I love the direction Frank went with it.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "REAL SINCE 22"
+        },
+        {
+          "heading": "If you had to name one person as your greatest influence, who would it be and why?"
+        },
+        "**SURREALITI:** Honestly, probably my sister, Monica. We were always really close growing up. She was like my second mom and my best friend.",
+        "It was heartbreaking seeing everything she went through. Her mind and body deteriorated more after each of her many surgeries, but she never let it stop her. She was so strong, resilient and creative. She did a little photography and graphic design while she was able to. Everything I do is in honor of her and making her proud.",
+        "I recently checked my account analytics and found out I made the new username @surrealiti in 2022—the year she passed. I recently designed a hoodie and wanted to include something like “established in 2022,” but landed on *REAL SINCE 22*. It resonates with me, and it sounds cool too.",
+        {
+          "quote": "“Shit really got real when I lost my big sis.”"
+        },
+        {
+          "heading": "What else should people know about you?"
+        },
+        "**SURREALITI:** I was born at home in a bathtub in Broken Arrow, Oklahoma—the middle of nowhere. I also grew up completely unvaccinated. I haven't asked my parents exactly why. My three siblings have dealt with a lot of health issues, while I have had little to none.",
+        "My other sister, Lucy, is still around. She beat the odds after being born blind, with special needs and a rare condition. Doctors said she'd only live into her teens, and she's well into her twenties now.",
+        {
+          "divider": true
+        },
+        {
+          "heading": "STOP PERFECTING. START SHIPPING."
+        },
+        {
+          "heading": "What's the newest project you want us to highlight?"
+        },
+        "**SURREALITI:** [Surrealiti.net](https://surrealiti.net)—sign up for emails or, better yet, buy something. There are hella colorways. A Halloween drop is on the way, and maybe a collaboration with @besomeone.",
+        "The site just went live. It's the first real storefront for the clothing line, and honestly, it's a big deal for me because I've tried launching this brand before and burned out before ever actually shipping anything.",
+        "This time, the goal was different: stop perfecting and start shipping. The site is up. There are pieces on it now. It is the first real, tangible step toward Surrealiti becoming a brand people can buy into—not just something I talk about.",
+        "This is only the beginning. Clothing is one pillar, with jewelry and media right behind it, but Surrealiti.net is where it starts. Go see the first drop and watch it grow from here.",
+        {
+          "link": {
+            "label": "Enter Surrealiti.net",
+            "href": "https://surrealiti.net"
+          }
+        },
+        {
+          "credit": "SURREALITI · DREAMS AND IMAGERY · STAY REAL"
+        }
+      ],
+      "migration": {
+        "contentStatus": "complete",
+        "legacyHref": "article.html?id=surrealiti-dreams-and-imagery",
+        "placements": [
+          {
+            "page": "index.html",
+            "path": "sections.fashion"
+          },
+          {
+            "page": "latest.html",
+            "path": "stories"
+          },
+          {
+            "page": "fashion.html",
+            "path": "latest"
+          },
+          {
+            "page": "art.html",
+            "path": "latest"
+          },
+          {
+            "page": "culture.html",
+            "path": "latest"
+          }
+        ]
+      }
     }
   }
 }
